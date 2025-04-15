@@ -1,6 +1,6 @@
 # Security + Concepts
 
-## Security
+## Security Controls
 
 ### Administrative/Managerial Controls are the policies and procedures I'm always talking about. They aren't as "cool" as a new software control, but they exist to give structure and guidance to individuals like you, and other members of your organization, ensuring nobody gets fined or causes a breach.
 
@@ -24,9 +24,16 @@
 
 ### Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
 
-Deter actors from attempting to access something that they shouldn't be.
-Deny/Prevent Access through a preventative control such as access permissions or authentication.
-Detect the risk, making sure to log the detection, such as with endpoint protection software.
-Delay the process of the risk from happening again, such as with a "too many attempts" function for a password entry.
-Correct the situation by responding to the compromise, such as with an incident response plan.
-Recover from the compromised state, such as a backup generator restoring availability to a server.
+## Defense of Depth
+
+### Deter actors from attempting to access something that they shouldn't be.
+
+### Deny/Prevent Access through a preventative control such as access permissions or authentication.
+
+### Detect the risk, making sure to log the detection, such as with endpoint protection software.
+
+### Delay the process of the risk from happening again, such as with a "too many attempts" function for a password entry.
+
+### Correct the situation by responding to the compromise, such as with an incident response plan.
+
+### Recover from the compromised state, such as a backup generator restoring availability to a server.
