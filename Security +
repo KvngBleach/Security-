@@ -1,16 +1,28 @@
-## Security Concepts
+# Security + Concepts
 
-Administrative/Managerial Controls are the policies and procedures I'm always talking about. They aren't as "cool" as a new software control, but they exist to give structure and guidance to individuals like you, and other members of your organization, ensuring nobody gets fined or causes a breach.
-Physical Controls limit the access to systems in a physical way; fences, CCTV, dogs... and everybody's favorite: fire sprinklers.
-Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
-Operational Controls are those that involve people conducting processes on a day-to-day level. Examples could include awareness training, asset classification, and reviewing log files.
+## Security
 
-Preventative Controls exist to not allow an action to happen and include firewalls, fences, and access permissions.
-Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
-Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
-Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
-Recovery Controls get something back from a loss, such as the recovery of a hard drive.
-Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
+### Administrative/Managerial Controls are the policies and procedures I'm always talking about. They aren't as "cool" as a new software control, but they exist to give structure and guidance to individuals like you, and other members of your organization, ensuring nobody gets fined or causes a breach.
+
+### Physical Controls limit the access to systems in a physical way; fences, CCTV, dogs... and everybody's favorite: fire sprinklers.
+
+### Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
+
+### Operational Controls are those that involve people conducting processes on a day-to-day level. Examples could include awareness training, asset classification, and reviewing log files.
+
+## Defending Against Attacks
+
+### Preventative Controls exist to not allow an action to happen and include firewalls, fences, and access permissions.
+
+### Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
+
+### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
+
+### Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
+
+### Recovery Controls get something back from a loss, such as the recovery of a hard drive.
+
+### Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
 
 Deter actors from attempting to access something that they shouldn't be.
 Deny/Prevent Access through a preventative control such as access permissions or authentication.
