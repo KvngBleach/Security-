@@ -2,6 +2,10 @@
 
 ## Administrative/Managerial Controls are the policies and procedures I'm always talking about. They aren't as "cool" as a new software control, but they exist to give structure and guidance to individuals like you, and other members of your organization, ensuring nobody gets fined or causes a breach.
 
+* Security Policies: Security policies are written documents that outline your company’s approach to cybersecurity. They define roles and responsibilities, acceptable use, access control policy, and more.
+
+* Incident Response Plan: An incident response plan explains the process and procedures your organization should follow to identify, manage, and respond to security threats.
+
 ## Physical Controls limit the access to systems in a physical way; fences, CCTV, dogs... and everybody's favorite: fire sprinklers.
 
 ## Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
