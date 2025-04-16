@@ -44,7 +44,7 @@
 
 </table> Preventive security controls, as the name suggests, protect your IT infrastructure from threats and attacks by preventing security threats from occurring. Some people call them preventative controls, but both terms mean the same thing. 
 
-    Here are key examples of preventive controls:
+Here are key examples of preventive controls:
 
 * Hardening: Application hardening involves enhancing security beyond the default settings. This process includes actions like changing default passwords to strong ones, enabling multi-factor authentication, blocking open ports, and deactivating unnecessary accounts. Reducing the attack surface by hardening limits opportunities for hackers to exploit vulnerabilities in the application.
 
@@ -58,7 +58,11 @@
 
 * Account Disablement Policy: An account disablement policy makes sure that all accounts associated with an employee are disabled when they leave your organization. This prevents them from accessing confidential data after their departure. Failing to deactivate ex-employee accounts poses a severe security risk, as they could leak sensitive information to competitors or post it online out of resentment, causing a data breach.
 
-## Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
+## Detective Controls 
+
+</table> Detective security controls help you identify when vulnerabilities were exploited, paving the way for hackers to intrude into your systems. You need to understand that detectives can identify an event once it has occurred.
+
+Here are key examples of detective security controls.
 
 * Security Incident Event Management Tools (SIEM): SIEM systems collect and analyze data from multiple networking sources, such as router, firewall, and endpoints to detect security threats in real time. They help identify suspicious activities and provide alerts for possible incidents.
 
@@ -72,7 +76,7 @@
 
 </table> Deterrent controls reduce the likelihood of attacks by discouraging bad actors from attacking. They can also dissuade your staff from taking a casual approach to cybersecurity.
 
-    Here are a few widely used examples of deterrent controls:
+Here are a few widely used examples of deterrent controls:
 
 * Warning Signs: Warning signs stating that the facility is under surveillance cameras can discourage many intruders from entering.
 
