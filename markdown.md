@@ -26,6 +26,16 @@
 
 ## Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
 
+* Security Incident Event Management Tools (SIEM): SIEM systems collect and analyze data from multiple networking sources, such as router, firewall, and endpoints to detect security threats in real time. They help identify suspicious activities and provide alerts for possible incidents.
+
+* Intrusion Detection System: An IDS monitors network traffic or system activities to detect any unusual or unauthorized actions. When it detects potential threats or intrusions, it generates alerts, allowing security teams to respond promptly.
+
+* Motion Detectors: These devices detect movements in areas where there shouldn’t be any activity, such as restricted areas. Motion detectors alert security personnel to investigate any detected motion that could indicate an intrusion.
+
+* Video Surveillance Camera: These cameras record activities in various areas of your facility, allowing your security teams to use this footage to detect suspicious behavior or review incidents after they occur to understand how they happened.
+
+### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
+
 * Warning Signs: Warning signs stating that the facility is under surveillance cameras can discourage many intruders from entering.
 
 * Login Banners: Displaying login banners that declare unauthorized access a crime can deter your staff members from attempting to access accounts they don’t own, even if they know the login credentials.
@@ -35,8 +45,6 @@
 * Lighting: Proper lighting that eliminates dark spots in your facility can deter intruders who use darkness to gain unauthorized entry into a building.
 
 * Security Policies: Security policies that clearly outline the disciplinary consequences of violating cybersecurity best practices can discourage employees from showing a lax attitude towards cybersecurity.
-
-### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
 
 ### Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
 
