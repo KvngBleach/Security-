@@ -23,7 +23,18 @@
 * Regular Software Updates: Keeping your systems’ software and operating systems up-to-date prevents threat actors from exploiting known vulnerabilities to enter your network.
 
 * Account Disablement Policy: An account disablement policy makes sure that all accounts associated with an employee are disabled when they leave your organization. This prevents them from accessing confidential data after their departure. Failing to deactivate ex-employee accounts poses a severe security risk, as they could leak sensitive information to competitors or post it online out of resentment, causing a data breach.
-### Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
+
+## Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
+
+* Warning Signs: Warning signs stating that the facility is under surveillance cameras can discourage many intruders from entering.
+
+* Login Banners: Displaying login banners that declare unauthorized access a crime can deter your staff members from attempting to access accounts they don’t own, even if they know the login credentials.
+
+* Security Guards: The presence of security guards in your facility can discourage many unauthorized individuals from entering your premises.
+
+* Lighting: Proper lighting that eliminates dark spots in your facility can deter intruders who use darkness to gain unauthorized entry into a building.
+
+* Security Policies: Security policies that clearly outline the disciplinary consequences of violating cybersecurity best practices can discourage employees from showing a lax attitude towards cybersecurity.
 
 ### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
 
