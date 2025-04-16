@@ -40,7 +40,11 @@
 
 # Defending Against Attacks
 
-## Preventative Controls exist to not allow an action to happen and include firewalls, fences, and access permissions.
+## Preventative Controls
+
+</table> Preventive security controls, as the name suggests, protect your IT infrastructure from threats and attacks by preventing security threats from occurring. Some people call them preventative controls, but both terms mean the same thing. 
+
+Here are key examples of preventive controls.
 
 * Hardening: Application hardening involves enhancing security beyond the default settings. This process includes actions like changing default passwords to strong ones, enabling multi-factor authentication, blocking open ports, and deactivating unnecessary accounts. Reducing the attack surface by hardening limits opportunities for hackers to exploit vulnerabilities in the application.
 
