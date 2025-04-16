@@ -1,12 +1,20 @@
 # Security Concepts
 
-## Administrative/Managerial Controls are the policies and procedures I'm always talking about. They aren't as "cool" as a new software control, but they exist to give structure and guidance to individuals like you, and other members of your organization, ensuring nobody gets fined or causes a breach.
+## Administrative/Managerial Controls 
+
+</table> Managerial controls are security policies and procedures established by an organization’s leadership to manage and oversee the security of systems and data. These controls, which are often written documents, focus on planning, assessing, and improving the organization’s security posture.
+
+Here are examples of managerial control.
 
 * Security Policies: Security policies are written documents that outline your company’s approach to cybersecurity. They define roles and responsibilities, acceptable use, access control policy, and more.
 
 * Incident Response Plan: An incident response plan explains the process and procedures your organization should follow to identify, manage, and respond to security threats.
 
-## Physical Controls limit the access to systems in a physical way; fences, CCTV, dogs... and everybody's favorite: fire sprinklers.
+## Physical Controls 
+
+</table> Physical security controls are security measures that you can touch. They work by discouraging potential intruders from entering your premises.
+
+Here are key examples of physical security controls:
 
 * Access Control Systems: Keycards or biometric scanners help restrict entry to authorized personnel only.
 
@@ -16,7 +24,11 @@
 
 * Fencing and Barriers: Fences and barriers dissuade potential intruders from entering your premises.
 
-## Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
+## Technical/Logical Controls 
+
+</table> Technical controls use hardware and software to protect your IT infrastructure. Once your IT administrators have installed and configured technical security controls, they will start protecting your systems and resources automatically.
+
+Here are popular examples of technical security controls.
 
 * Firewalls: Firewalls check and control incoming and outgoing network traffic based on predetermined security rules. They act as a security barrier between trusted internal networks and untrusted external networks, effectively blocking unauthorized access and helping to prevent cyber attacks.
 
@@ -28,7 +40,11 @@
 
 * Endpoint Protection Platform (EPP): Endpoint protection platforms offer various security features, such as data loss protection, protection from malicious downloads, incident investigation and remediation, and more. These features help protect endpoints from security threats.
 
-## Operational Controls are those that involve people conducting processes on a day-to-day level. Examples could include awareness training, asset classification, and reviewing log files.
+## Operational Controls 
+
+</table> Operational controls focus on making sure that your organisational day-to-day operations are aligned with your overall security goals. Unlike technical controls that are executed by systems, these controls are often executed by people.
+
+Here are examples of operational controls:
 
 * Configuration Management: A configuration management plan ensures that all systems use secure baseline settings instead of default settings. This helps prevent hackers from exploiting vulnerabilities that result from poor configuration settings.
 
@@ -117,6 +133,10 @@ Here are some examples of compensating controls.
 * Employee Training and Awareness: If technical controls like spam filters cannot effectively prevent phishing attacks, providing extensive staff training on recognizing and responding to phishing attacks, email spoofing, typosquatting, and other security threats can serve as a compensating control.
 
 ## Directive Controls
+
+</table> Directive security controls provide guidance for users to follow in security-related situations. These controls are typically documented instructions rather than technical tools aimed at achieving security objectives. Their primary purpose is to influence and direct the behavior of individuals within an organization to meet specific security goals.
+
+Examples of directive security controls include:
 
 * Acceptable Use Policy: A written document outlining the acceptable behaviors and practices for using organizational resources, such as computers, networks, and internet access.
 
