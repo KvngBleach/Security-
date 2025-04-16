@@ -88,7 +88,13 @@ Here are a few widely used examples of deterrent controls:
 
 * Security Policies: Security policies that clearly outline the disciplinary consequences of violating cybersecurity best practices can discourage employees from showing a lax attitude towards cybersecurity.
 
-## Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
+## Corrective Controls 
+
+</table> Once inside your network, threat actors are likely to cause severe damage, impacting your IT resources’ confidentiality, integrity, and availability. They can encrypt files, install spyware, steal data, and whatnot.
+
+Corrective controls are used to reverse the damage caused by a security incident after it happened. The objective of corrective controls is to get things back to normal as soon as possible.
+
+Here are key examples of corrective controls.
 
 * Antivirus Software: After an infection occurs, antivirus programs can scan the device, quarantine infected files, and restore the system to a secure state.
 
@@ -98,7 +104,11 @@ Here are a few widely used examples of deterrent controls:
 
 * Security Training: Providing additional employee training after a security incident helps raise awareness of potential threats and proper security practices. This training reinforces the importance of following security protocols and helps prevent future incidents.
 
-## Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
+## Compensating Controls 
+
+</table> Compensating security controls are implemented when organizations cannot apply primary security controls or when those primary controls do not provide adequate protection.
+
+Here are some examples of compensating controls.
 
 * Strict Access Controls: If an organization cannot segregate duties for sensitive processes, it might implement strict access controls and carry out regular security audits to monitor user activities.
 
