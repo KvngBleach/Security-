@@ -164,15 +164,25 @@ Here are key reasons why it is important to implement security controls.
 
 </table> Ransomware is software that uses encryption to disable a target’s access to its data until a ransom is paid. The victim organization is rendered partially or totally unable to operate until it pays, but there is no guarantee that payment will result in the necessary decryption key or that the decryption key provided will function properly.
 
-
-
-* This year, the city of Baltimore was hit by a type of ransomware named RobbinHood, which halted all city activities, including tax collection, property transfers, and government email for weeks. This attack has cost the city more than $18 million so far, and costs continue to accrue. The same type of malware was used against the city of Atlanta in 2018, resulting in costs of $17 million.
+     This year, the city of Baltimore was hit by a type of ransomware named RobbinHood, which halted all city activities, including tax collection, property transfers, and government email for weeks. This attack has cost the city more than $18 million so far, and costs continue to accrue. The same type of malware was used against the city of Atlanta in 2018, resulting in costs of $17 million.
 
 ## Trojans
 
 ## Worms
 
 ## Spyware
+
+</table> Spyware collects information about users’ activities without their knowledge or consent. This can include passwords, pins, payment information and unstructured messages.The use of spyware is not limited to the desktop browser: it can also operate in a critical app or on a mobile phone.Even if the data stolen is not critical, the effects of spyware often ripple throughout the organization as performance is degraded and productivity eroded.
+
+     DarkHotel, which targeted business and government leaders using hotel WIFI, used several types of malware in order to gain access to the systems belonging to specific powerful people. Once that access was gained, the attackers installed keyloggers to capture their targets passwords and other sensitive information.
+
+## Adware
+
+</table> Adware tracks a user’s surfing activity to determine which ads to serve them. Although adware is similar to spyware, it does not install any software on a user’s computer, nor does it capture keystrokes. The danger in adware is the erosion of a user’s privacy — the data captured by adware is collated with data captured, overtly or covertly, about the user’s activity elsewhere on the internet and used to create a profile of that person which includes who their friends are, what they’ve purchased, where they’ve traveled, and more. That information can be shared or sold to advertisers without the user’s consent.
+
+    Adware called Fireball infected 250 million computers and devices in 2017, hijacking browsers to change default search engines and track web activity. However, the malware had the potential to become more than a mere nuisance. Three-quarters of it was able to run code remotely and download malicious files.
+
+
 
 ## Viruses
 
