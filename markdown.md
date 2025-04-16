@@ -58,4 +58,18 @@
 
 ### Recovery Controls get something back from a loss, such as the recovery of a hard drive.
 
-### Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
+## Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
+
+* Strict Access Controls: If an organization cannot segregate duties for sensitive processes, it might implement strict access controls and carry out regular security audits to monitor user activities.
+
+* Data Loss Prevention (DLP) Solutions: If encryption is not possible for data in transit, organizations may implement DLP solutions to monitor and control the flow of sensitive information outside the network.
+
+* Employee Training and Awareness: If technical controls like spam filters cannot effectively prevent phishing attacks, providing extensive staff training on recognizing and responding to phishing attacks, email spoofing, typosquatting, and other security threats can serve as a compensating control.
+
+## Directive Controls
+
+* Acceptable Use Policy: A written document outlining the acceptable behaviors and practices for using organizational resources, such as computers, networks, and internet access.
+
+* Security Awareness Training: These training programs are designed to educate employees about cybersecurity threats, best practices, and their roles in protecting the organization’s assets and information.
+
+* Incident Response Plan: An incident response plan is a written document that guides security teams in taking the necessary steps to minimize the impact of a security incident on the confidentiality, integrity, and availability of resources. It also helps restore systems to normal operation.
