@@ -34,7 +34,7 @@
 
 * Video Surveillance Camera: These cameras record activities in various areas of your facility, allowing your security teams to use this footage to detect suspicious behavior or review incidents after they occur to understand how they happened.
 
-### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
+## Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
 
 * Warning Signs: Warning signs stating that the facility is under surveillance cameras can discourage many intruders from entering.
 
@@ -46,7 +46,15 @@
 
 * Security Policies: Security policies that clearly outline the disciplinary consequences of violating cybersecurity best practices can discourage employees from showing a lax attitude towards cybersecurity.
 
-### Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
+## Corrective Controls are able to take an action from one state to another. This is where fail open and fail closed controls are addressed.
+
+* Antivirus Software: After an infection occurs, antivirus programs can scan the device, quarantine infected files, and restore the system to a secure state.
+
+* Restoration from Backups: If data is lost due to a cyberattack or system failure, restoring from backups helps recover the information and minimize downtime.
+
+* Password Resets: After a security breach occurs, you should reset all passwords to prevent unauthorized access. This process helps secure accounts and ensures that only authorized users regain access.
+
+* Security Training: Providing additional employee training after a security incident helps raise awareness of potential threats and proper security practices. This training reinforces the importance of following security protocols and helps prevent future incidents.
 
 ### Recovery Controls get something back from a loss, such as the recovery of a hard drive.
 
