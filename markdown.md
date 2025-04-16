@@ -157,3 +157,29 @@ Here are key reasons why it is important to implement security controls.
 * Regulatory Compliance: Depending on your industry, you may be liable to some regulations like the General Data Protection Regulation (GDPR) or the Health Insurance Portability and Accountability Act (HIPPA) that require you to implement security measures to protect your customers’ data. Implementation of various security controls strategically can help you meet regulatory compliance.
 
 * Trust and Reputation: Security controls reduce the frequency and impact of security incidents. This prioritization of security enhances trust and reputation among customers, vendors, stakeholders, and third parties, as they feel more secure working with organizations that take security seriously.
+
+# Malware Types
+
+## Ransomware
+
+</table> Ransomware is software that uses encryption to disable a target’s access to its data until a ransom is paid. The victim organization is rendered partially or totally unable to operate until it pays, but there is no guarantee that payment will result in the necessary decryption key or that the decryption key provided will function properly.
+
+
+
+* This year, the city of Baltimore was hit by a type of ransomware named RobbinHood, which halted all city activities, including tax collection, property transfers, and government email for weeks. This attack has cost the city more than $18 million so far, and costs continue to accrue. The same type of malware was used against the city of Atlanta in 2018, resulting in costs of $17 million.
+
+## Trojans
+
+## Worms
+
+## Spyware
+
+## Viruses
+
+## Bloatware
+
+## Keyloggers 
+
+## Rootkits
+
+## Logic Bombs
