@@ -8,6 +8,14 @@
 
 ## Physical Controls limit the access to systems in a physical way; fences, CCTV, dogs... and everybody's favorite: fire sprinklers.
 
+* Access Control Systems: Keycards or biometric scanners help restrict entry to authorized personnel only.
+
+* Surveillance Cameras: Surveillance cameras monitor activities and deter crime by making potential intruders aware they are being watched. Additionally, they provide useful evidence for investigations.
+
+* Security Personnel: Employing trained security guards to patrol the premises can discourage unauthorized personnel from entering your premises.
+
+* Fencing and Barriers: Fences and barriers dissuade potential intruders from entering your premises.
+
 ## Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
 
 * Firewalls: Firewalls check and control incoming and outgoing network traffic based on predetermined security rules. They act as a security barrier between trusted internal networks and untrusted external networks, effectively blocking unauthorized access and helping to prevent cyber attacks.
@@ -21,6 +29,14 @@
 * Endpoint Protection Platform (EPP): Endpoint protection platforms offer various security features, such as data loss protection, protection from malicious downloads, incident investigation and remediation, and more. These features help protect endpoints from security threats.
 
 ## Operational Controls are those that involve people conducting processes on a day-to-day level. Examples could include awareness training, asset classification, and reviewing log files.
+
+* Configuration Management: A configuration management plan ensures that all systems use secure baseline settings instead of default settings. This helps prevent hackers from exploiting vulnerabilities that result from poor configuration settings.
+
+* Security Awareness Training: Regular cybersecurity training helps your employees follow cybersecurity best practices, such as creating strong passwords, understanding threats of social engineering attacks, and avoiding clicking unknown links. This helps your company to meet its overall security goals.
+
+* User account Management: Managing user accounts involves giving the right access to individuals based on their roles and deleting accounts once employees leave the company. Use account management helps ensure that data access aligns with the least privilege principle.
+
+* Patch Management: Regularly updating and applying software patches is an ongoing operational task to prevent vulnerabilities, ensuring that day-to-day system management is in line with security goals. You can explore these best patch management software to automate updates in your organization.
 
 # Defending Against Attacks
 
