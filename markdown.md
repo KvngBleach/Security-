@@ -11,17 +11,18 @@
 # Defending Against Attacks
 
 ## Preventative Controls exist to not allow an action to happen and include firewalls, fences, and access permissions.
-    ### Hardening: Application hardening involves enhancing security beyond the default settings. This process includes actions like changing default passwords to strong ones, enabling multi-factor authentication, blocking open ports, and deactivating unnecessary accounts. Reducing the attack surface by hardening limits opportunities for hackers to exploit vulnerabilities in the application.
 
-    ###Firewall: A firewall monitors and controls incoming and outgoing traffic based on predetermined security rules. By filtering malicious data packets, a firewall can block unauthorized access while allowing legitimate traffic. This prevents hackers from reaching internal systems, thereby acting as an effective preventive security control. You can explore these managed firewalls to find the best solution for your company.
+### Hardening: Application hardening involves enhancing security beyond the default settings. This process includes actions like changing default passwords to strong ones, enabling multi-factor authentication, blocking open ports, and deactivating unnecessary accounts. Reducing the attack surface by hardening limits opportunities for hackers to exploit vulnerabilities in the application.
 
-    ### Intrusion Prevention System (IPS): An Intrusion Prevention System (IPS) actively detects and blocks security threats before they can reach your network, preventing potential security incidents. We have prepared a list of the best IPS software to help you make an informed decision based on your needs.
+### Firewall: A firewall monitors and controls incoming and outgoing traffic based on predetermined security rules. By filtering malicious data packets, a firewall can block unauthorized access while allowing legitimate traffic. This prevents hackers from reaching internal systems, thereby acting as an effective preventive security control. You can explore these managed firewalls to find the best solution for your company.
 
-    ### Antivirus Software: An Antivirus program protects systems from various types of malware, including viruses, ransomware, spyware, and more. You can check these antivirus software to pick the right program for your business.
+### Intrusion Prevention System (IPS): An Intrusion Prevention System (IPS) actively detects and blocks security threats before they can reach your network, preventing potential security incidents. We have prepared a list of the best IPS software to help you make an informed decision based on your needs.
 
-    ### Regular Software Updates: Keeping your systems’ software and operating systems up-to-date prevents threat actors from exploiting known vulnerabilities to enter your network.
+ ### Antivirus Software: An Antivirus program protects systems from various types of malware, including viruses, ransomware, spyware, and more. You can check these antivirus software to pick the right program for your business.
 
-    ### Account Disablement Policy: An account disablement policy makes sure that all accounts associated with an employee are disabled when they leave your organization. This prevents them from accessing confidential data after their departure. Failing to deactivate ex-employee accounts poses a severe security risk, as they could leak sensitive information to competitors or post it online out of resentment, causing a data breach.
+ ### Regular Software Updates: Keeping your systems’ software and operating systems up-to-date prevents threat actors from exploiting known vulnerabilities to enter your network.
+
+### Account Disablement Policy: An account disablement policy makes sure that all accounts associated with an employee are disabled when they leave your organization. This prevents them from accessing confidential data after their departure. Failing to deactivate ex-employee accounts poses a severe security risk, as they could leak sensitive information to competitors or post it online out of resentment, causing a data breach.
 ### Detective Controls are only triggered during or after an event, such as video surveillance, or intrusion detection systems.
 
 ### Deterrents discourage threats from attempting to exploit a vulnerability, such as a "Guard Dog" sign, or dogs.
