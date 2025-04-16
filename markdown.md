@@ -146,6 +146,10 @@ Examples of directive security controls include:
 
 ## Importance of Security Controls
 
+</table> Security controls protect your organization from security threats by identifying, mitigating, and reducing the impact of security incidents.
+
+Here are key reasons why it is important to implement security controls.
+
 * Risk Mitigation: Security controls reduce the likelihood and impact of security incidents.
 
 * Data Protection: Security controls protect your data from unauthorized access. They can help you ensure the confidentiality, integrity, and availability of your data resources. You can check these data security solutions to protect data in your organization.
