@@ -56,8 +56,6 @@
 
 * Security Training: Providing additional employee training after a security incident helps raise awareness of potential threats and proper security practices. This training reinforces the importance of following security protocols and helps prevent future incidents.
 
-### Recovery Controls get something back from a loss, such as the recovery of a hard drive.
-
 ## Compensating Controls are those that attempt to make up for the shortcomings of other controls, such as reviewing access logs regularly. This example is also a detective control, but compensating controls can be of various different types.
 
 * Strict Access Controls: If an organization cannot segregate duties for sensitive processes, it might implement strict access controls and carry out regular security audits to monitor user activities.
