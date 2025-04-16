@@ -6,6 +6,16 @@
 
 ## Technical/Logical Controls are those that limit access on a hardware or software basis, such as encryption, fingerprint readers, authentication, or Trusted Platform Modules (TPMs). These don't limit access to the physical systems the way physical controls do, but rather access to the data or contents.
 
+* Firewalls: Firewalls check and control incoming and outgoing network traffic based on predetermined security rules. They act as a security barrier between trusted internal networks and untrusted external networks, effectively blocking unauthorized access and helping to prevent cyber attacks.
+
+* Multi-factor Authentication (MFA): If you implement Multi-Factor Authentication (MFA) in your organization, users must provide multiple forms of verification, such as a password and a text message code, before accessing systems. This practice makes it challenging for threat actors to gain unauthorized access to user accounts, even if they successfully obtain passwords using brute force attack tools.
+
+* Encryption: Encrypting sensitive data in your organization protects it from prying eyes. Even if hackers intercept your data during transmission or gain unauthorized access, they cannot read or understand it.
+
+* Intrusion Detection and Prevention System (IDPS): IDPS detect and block security threats before it can cause any harm to your IT network. It is an important technical security control used by most organizations today.
+
+* Endpoint Protection Platform (EPP): Endpoint protection platforms offer various security features, such as data loss protection, protection from malicious downloads, incident investigation and remediation, and more. These features help protect endpoints from security threats.
+
 ## Operational Controls are those that involve people conducting processes on a day-to-day level. Examples could include awareness training, asset classification, and reviewing log files.
 
 # Defending Against Attacks
