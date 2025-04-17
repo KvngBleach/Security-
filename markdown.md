@@ -239,6 +239,22 @@ Here are key reasons why it is important to implement security controls.
 
 ## Keyloggers 
 
+</table> A keylogger (also known as a keystroke logger) is a type of surveillance software or hardware device that records the keys pressed on a computer keyboard, typically in a covert manner so that the user is unaware their actions are being monitored.
+
+* Keystroke Recording: The primary function of a keylogger is to capture every keystroke entered by the user. This includes letters, numbers, symbols, function keys, and even system commands.
+
+* Covert Operation: Keyloggers are designed to operate stealthily in the background without the user's knowledge or consent. They often don't have a visible interface or generate any suspicious activity that would alert the user.  
+
+* Data Storage and Retrieval: The recorded keystrokes are typically stored in a log file on the local machine or transmitted remotely to the attacker, depending on the type of keylogger. Attackers can then access these logs to retrieve sensitive information.   
+
+* Software and Hardware Forms: Keyloggers can exist in two main forms:
+
+          Software Keyloggers: These are programs installed on the target computer, often without the user's awareness. They can be implemented as standalone applications, parts of other malware (like Trojans), or even as browser extensions.   
+
+          Hardware Keyloggers: These are physical devices that are plugged in between the keyboard and the computer. They record keystrokes at the hardware level and store them in their internal memory.   
+  
+
+
 ## Rootkits
 
 ## Logic Bombs
