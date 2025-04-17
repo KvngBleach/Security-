@@ -168,6 +168,28 @@ Here are key reasons why it is important to implement security controls.
 
 ## Trojans
 
+</table> In cybersecurity, a Trojan horse (often simply called a Trojan) is a type of malicious software (malware) that disguises itself as a legitimate or harmless program to trick users into installing it. Unlike viruses and worms, Trojans do not self-replicate. Instead, they rely on social engineering to deceive users into executing them.
+
+     Imagine you receive an email that appears to be from a reputable software company (e.g., Adobe, Microsoft). The email claims that there's a critical security update for one of their popular programs (like Adobe Reader or Microsoft Office). The email looks very convincing, with the company's logo and professional formatting. It includes a link or an attached file named something like "SecurityUpdate.exe" or "AdobePatch.zip".
+
+* Deceptive Appearance: Trojans often masquerade as useful software, such as antivirus updates, software cracks, games, or seemingly legitimate applications. This disguise is crucial to their success.
+
+* Non-Self-Replicating: This is a defining characteristic that distinguishes Trojans from viruses and worms. They don't automatically spread to other files or systems once executed.
+
+* Payload Delivery: Once a Trojan is executed by the unsuspecting user, it can carry out a variety of malicious activities, known as its "payload." These payloads can include:
+
+     Backdoors: Allowing attackers remote access and control over the infected system.
+
+     Data Theft: Stealing sensitive information like passwords, financial data, personal files, and browsing history.
+     Keylogging: Recording keystrokes to capture login credentials and other sensitive text.
+     Spyware: Monitoring user activity, taking screenshots, and recording audio/video.
+     Denial-of-Service (DoS) Attacks: Using the infected machine to launch attacks against other systems.
+     Ransomware Installation: Encrypting files and demanding a ransom for their decryption.
+     Botnet Recruitment: Turning the infected computer into a "bot" that can be controlled remotely as part of a larger network for malicious purposes.
+     Deleting or Modifying Files: Causing data loss or system instability.
+     User Interaction Required: Trojans typically require some form of user interaction to be executed, such as clicking on a malicious attachment, downloading and running a fake program, or visiting a compromised website that triggers a drive-by download.
+     In essence, a Trojan horse in cybersecurity is a malicious program that hides its true intentions behind a seemingly benign facade, relying on deception to gain access to a system and carry out harmful actions. Understanding how Trojans operate is crucial for individuals and organizations to implement effective security measures and avoid becoming victims of these deceptive threats.
+
 ## Worms
 
 ## Spyware
@@ -184,7 +206,7 @@ Here are key reasons why it is important to implement security controls.
 
 
 
-## Viruses
+## Viruses 
 
 ## Bloatware
 
