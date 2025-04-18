@@ -344,9 +344,9 @@ Here are key reasons why it is important to implement security controls.
 
           Delayed Impact: The delayed activation of a logic bomb can make it difficult to trace the malicious activity back to its source. The system might function normally for an extended period before the bomb suddenly detonates. 
 
-     # Social Engineering Tactics
+ # Social Engineering Tactics
 
-     </table> Social engineering in cybersecurity refers to the psychological manipulation of people to perform actions or divulge confidential information. Instead of exploiting technical vulnerabilities in systems, social engineers exploit human behavior and emotions to gain access to data, systems, or locations.
+ </table> Social engineering in cybersecurity refers to the psychological manipulation of people to perform actions or divulge confidential information. Instead of exploiting technical vulnerabilities in systems, social engineers exploit human behavior and emotions to gain access to data, systems, or locations.
 
 Think of it as "hacking the human" rather than hacking the computer. Attackers use deception and persuasion tactics to trick individuals into making security mistakes.
 
@@ -359,3 +359,20 @@ Think of it as "hacking the human" rather than hacking the computer. Attackers u
 * Varied Techniques: Social engineering attacks can take many forms, occurring online, over the phone, or even in person.
 
           In essence, social engineering is about convincing people to do something they shouldn't, by exploiting their natural tendencies and psychological responses. It's a significant threat because humans are often the weakest link in the security chain.
+ ## Phishing 
+
+</table> Phishing is a type of social engineering attack where malicious actors attempt to deceive individuals into revealing sensitive information, such as usernames, passwords, credit card details, or other personal data, by disguising themselves as trustworthy entities. Think of it as "fishing" for sensitive information by casting out deceptive "bait."
+
+* Deception is Central: Phishing relies heavily on trickery and manipulation. Attackers craft messages (typically emails, but also texts, phone calls, or even social media messages) that appear to be from legitimate organizations or people the target trusts.
+   
+* Impersonation of Trusted Entities: Attackers commonly impersonate well-known companies (banks, social media platforms, online retailers), government agencies, or even colleagues and friends. They often use logos, branding, and language that closely resemble the real entity. 
+  
+* Urgency and Fear Tactics: Phishing attempts often create a sense of urgency or fear to pressure victims into acting quickly without thinking critically. For example, a message might claim that an account has been compromised and requires immediate action to secure it, or that a payment is overdue and will result in service suspension.   
+
+* Requests for Sensitive Information: The ultimate goal of a phishing attack is to get the victim to divulge confidential data. This can be done through various means:
+
+          Malicious Links: The message often contains links that lead to fake websites designed to look like the legitimate organization's login or information entry pages. Any data entered on these fake sites is then stolen by the attackers.   
+
+          Malicious Attachments: Attachments may contain malware that, once opened, can steal information, install backdoors, or perform other malicious actions.   
+          
+          Direct Requests: The message might directly ask for sensitive information, such as a password reset or account verification, often under a false pretense. 
