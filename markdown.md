@@ -374,5 +374,17 @@ Think of it as "hacking the human" rather than hacking the computer. Attackers u
           Malicious Links: The message often contains links that lead to fake websites designed to look like the legitimate organization's login or information entry pages. Any data entered on these fake sites is then stolen by the attackers.   
 
           Malicious Attachments: Attachments may contain malware that, once opened, can steal information, install backdoors, or perform other malicious actions.   
-          
+
           Direct Requests: The message might directly ask for sensitive information, such as a password reset or account verification, often under a false pretense. 
+
+* Wide Range of Attack Vectors: While email is the most common method, phishing attacks can also occur via:
+
+          Smishing (SMS Phishing): Using text messages.
+             
+          Vishing (Voice Phishing): Using phone calls. 
+            
+          Social Media Phishing: Using direct messages or fake posts.   
+
+          Spear Phishing: Highly targeted attacks aimed at specific individuals or organizations, often using personalized information to increase credibility.  
+           
+          Whaling: A type of spear phishing that targets high-profile individuals like CEOs or senior executives.
