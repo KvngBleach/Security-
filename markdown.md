@@ -343,3 +343,19 @@ Here are key reasons why it is important to implement security controls.
           Internal Threat Potential: Logic bombs are often planted by individuals with legitimate access to the system, such as disgruntled employees or insiders. This makes them particularly challenging to prevent and detect, as the malicious code can be embedded within seemingly legitimate parts of the software.  
 
           Delayed Impact: The delayed activation of a logic bomb can make it difficult to trace the malicious activity back to its source. The system might function normally for an extended period before the bomb suddenly detonates. 
+
+     # Social Engineering Tactics
+
+     </table> Social engineering in cybersecurity refers to the psychological manipulation of people to perform actions or divulge confidential information. Instead of exploiting technical vulnerabilities in systems, social engineers exploit human behavior and emotions to gain access to data, systems, or locations.
+
+Think of it as "hacking the human" rather than hacking the computer. Attackers use deception and persuasion tactics to trick individuals into making security mistakes.
+
+* Human Element Focus: Social engineering targets the inherent trust, helpfulness, fear, or urgency that individuals might feel.
+
+* Manipulation and Deception: Attackers create scenarios or impersonate individuals or organizations to convince their targets to take specific actions.
+
+* Goal-Oriented: The ultimate goal is usually to obtain sensitive information (like passwords, financial details, or personal data), gain unauthorized access to systems or physical locations, or persuade victims to install malware or transfer funds.
+
+* Varied Techniques: Social engineering attacks can take many forms, occurring online, over the phone, or even in person.
+
+          In essence, social engineering is about convincing people to do something they shouldn't, by exploiting their natural tendencies and psychological responses. It's a significant threat because humans are often the weakest link in the security chain.
