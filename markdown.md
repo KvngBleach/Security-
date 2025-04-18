@@ -235,6 +235,20 @@ Here are key reasons why it is important to implement security controls.
 
 ## Viruses 
 
+</table> In cybersecurity, a virus is a type of malicious software (malware) that, when executed, replicates itself by inserting copies of its code into other computer programs, data files, or the boot sector of the hard drive. This self-replication is the defining characteristic of a computer virus.
+
+* Self-Replication: This is the core function of a virus. It needs a host program or file to attach itself to. When the infected host is executed, the virus code is also run, and it then seeks out other susceptible files or areas to infect.
+
+* Host Dependency: Viruses cannot exist or spread without a host. They need to attach themselves to an executable file (.exe, .com), a document with macros (like .doc or .xls), or the boot sector (the part of the hard drive that starts the operating system).
+
+* Activation: A virus typically remains dormant until the infected host file is executed or the infected boot sector is accessed. This activation can be triggered by a user opening an infected file, booting the computer from an infected drive, or another system event.
+
+* Payload Delivery: Once activated, a virus can deliver a malicious "payload." This payload can range from being relatively harmless (like displaying annoying messages or slowing down the system) to severely damaging (like deleting files, corrupting data, stealing information, or giving an attacker control over the system).
+
+* Spread Mechanism: Viruses spread when the infected host file is transferred to another computer (e.g., via email attachment, USB drive, network share). When the recipient executes the infected file, the virus activates and can then infect other files on their system and potentially spread further.
+
+          In essence, a computer virus is a piece of malicious code that attaches itself to a host program and replicates by modifying other programs to include its own code. This self-replication allows it to spread rapidly from one computer to another, often causing harm through its payload. Understanding the mechanisms of how viruses spread and the types of damage they can inflict is crucial for implementing effective cybersecurity practices.
+
 ## Bloatware
 
 </table> Bloatware refers to pre-installed software on a device (like a computer or smartphone) that the user often finds unnecessary or unwanted. It typically comes bundled by the manufacturer or carrier and consumes system resources, potentially slowing down performance and taking up storage space.
@@ -327,5 +341,5 @@ Here are key reasons why it is important to implement security controls.
           Stealing sensitive information.
 
           Internal Threat Potential: Logic bombs are often planted by individuals with legitimate access to the system, such as disgruntled employees or insiders. This makes them particularly challenging to prevent and detect, as the malicious code can be embedded within seemingly legitimate parts of the software.  
-           
+
           Delayed Impact: The delayed activation of a logic bomb can make it difficult to trace the malicious activity back to its source. The system might function normally for an extended period before the bomb suddenly detonates. 
