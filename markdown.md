@@ -271,4 +271,25 @@ Here are key reasons why it is important to implement security controls.
 
 ## Rootkits
 
+</table> A rootkit is a stealthy type of malicious software (malware) designed to gain unauthorized, persistent access to a computer system while actively concealing its presence and the presence of other malicious software. The term "rootkit" originates from the "root" or administrator account on Unix-like operating systems, as gaining root access provides the highest level of control over the system.
+
+* Stealth and Concealment: This is the defining feature of a rootkit. Its primary goal is to remain undetected by standard operating system functions, security software (like antivirus), and the user. It achieves this by manipulating the operating system itself.
+
+* Persistence: Rootkits aim to establish a long-term foothold on the compromised system, allowing attackers to maintain control and carry out malicious activities over an extended period. 
+  
+* Privileged Access: Once installed, a rootkit often grants the attacker root-level or administrator privileges, giving them complete control over the infected system.
+
+* Hiding Other Malware: Rootkits are often used to hide the presence of other malicious software, such as backdoors, keyloggers, and bots, making it difficult to detect and remove the entire malicious package. 
+  
+* Operating System Manipulation: Rootkits achieve their stealth by modifying core components of the operating system, including:
+
+          System Calls: Intercepting and altering system calls to filter out evidence of their presence or the presence of other malware. 
+            
+          Kernel Objects: Hiding processes, files, registry entries, and network connections associated with the rootkit and other malicious software. 
+            
+          Device Drivers: Replacing legitimate drivers with malicious ones to gain control at a low level and intercept system operations.
+          
+          Bootloaders: Some rootkits infect the bootloader to gain control of the system before the operating system even starts.   
+
+
 ## Logic Bombs
