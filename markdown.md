@@ -288,8 +288,44 @@ Here are key reasons why it is important to implement security controls.
           Kernel Objects: Hiding processes, files, registry entries, and network connections associated with the rootkit and other malicious software. 
             
           Device Drivers: Replacing legitimate drivers with malicious ones to gain control at a low level and intercept system operations.
-          
+
           Bootloaders: Some rootkits infect the bootloader to gain control of the system before the operating system even starts.   
 
 
 ## Logic Bombs
+
+</table> A logic bomb in cybersecurity is a piece of malicious code intentionally inserted into a software system. This code lies dormant until a specific predefined condition or set of conditions is met. Once triggered, the logic bomb executes its malicious payload, which can range from displaying an unwanted message to deleting critical data, disrupting system operations, or granting unauthorized access.
+
+* Dormant State: Unlike viruses or worms that often execute immediately upon infection, a logic bomb remains inactive within the system until its trigger conditions are satisfied. This stealthy nature can make them difficult to detect.  
+
+* Trigger Conditions: These are the specific criteria that must be met for the logic bomb to activate. These conditions can be diverse and include:
+
+          A specific date or time.
+
+          A particular user logging into the system.
+
+          A certain number of times a program is executed.
+
+          The deletion or modification of a specific file.
+
+          A particular sequence of user actions.
+
+          A specific network event.
+
+* Malicious Payload: Once triggered, the logic bomb executes its intended harmful action. The severity of the payload can vary greatly, including:
+
+          Displaying nuisance messages or pop-ups.
+
+          Corrupting or deleting files and data.   
+
+          Disrupting network services.
+
+          Crashing the operating system.
+
+          Granting unauthorized access to the system.
+
+          Stealing sensitive information.
+
+          Internal Threat Potential: Logic bombs are often planted by individuals with legitimate access to the system, such as disgruntled employees or insiders. This makes them particularly challenging to prevent and detect, as the malicious code can be embedded within seemingly legitimate parts of the software.  
+           
+          Delayed Impact: The delayed activation of a logic bomb can make it difficult to trace the malicious activity back to its source. The system might function normally for an extended period before the bomb suddenly detonates. 
