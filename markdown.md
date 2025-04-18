@@ -401,7 +401,9 @@ Description: These attacks involve systematically trying every possible combinat
 Effectiveness: Highly time-consuming and often ineffective against strong, long passwords and systems with account lockout policies.   
 
 Variations:
+
 Full Brute-Force: Tries all possible character combinations of a certain length.
+
 Masked Brute-Force: The attacker has some knowledge about the password structure (e.g., it starts with a capital letter and ends with a number) and uses this information to narrow down the search space.
 
 2. Dictionary Attacks:
