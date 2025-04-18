@@ -237,6 +237,20 @@ Here are key reasons why it is important to implement security controls.
 
 ## Bloatware
 
+</table> Bloatware refers to pre-installed software on a device (like a computer or smartphone) that the user often finds unnecessary or unwanted. It typically comes bundled by the manufacturer or carrier and consumes system resources, potentially slowing down performance and taking up storage space.
+
+* Pre-installed: Bloatware is not installed by the user but comes with the device right out of the box.
+
+* Unwanted or Unnecessary: Users often perceive these applications as superfluous, as they may already have preferred alternatives or never intend to use them.
+   
+* Resource Intensive: Bloatware can run in the background, consuming RAM and CPU cycles, which can lead to slower performance and reduced battery life.
+  
+* Storage Consumption: These pre-installed apps occupy valuable storage space on the device, which can be a significant issue, especially on devices with limited internal memory. 
+  
+* Difficult to Remove: In many cases, bloatware is not easily uninstallable through standard methods. Users might need to resort to more advanced techniques or even rooting/jailbreaking their devices to completely remove it.
+
+          In essence, bloatware is the digital equivalent of clutter on a new device – pre-loaded software that many users would prefer not to have and that can negatively impact the device's performance and available storage. While some pre-installed software might be useful to certain users, the term "bloatware" generally carries a negative connotation due to its often unwanted nature and potential impact on device efficiency.
+
 ## Keyloggers 
 
 </table> A keylogger (also known as a keystroke logger) is a type of surveillance software or hardware device that records the keys pressed on a computer keyboard, typically in a covert manner so that the user is unaware their actions are being monitored.
