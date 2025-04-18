@@ -386,5 +386,70 @@ Think of it as "hacking the human" rather than hacking the computer. Attackers u
           Social Media Phishing: Using direct messages or fake posts.   
 
           Spear Phishing: Highly targeted attacks aimed at specific individuals or organizations, often using personalized information to increase credibility.  
-           
+
           Whaling: A type of spear phishing that targets high-profile individuals like CEOs or senior executives.
+
+## Password Attacks 
+
+</table> Password attacks are methods used by malicious actors to attempt to uncover or bypass passwords, ultimately gaining unauthorized access to systems, accounts, or data. These attacks exploit weaknesses in password security practices, human behavior, and sometimes vulnerabilities in the systems themselves.   
+
+Here's a breakdown of common password attack categories and techniques:
+1.  Brute-Force Attacks:
+
+Description: These attacks involve systematically trying every possible combination of characters (letters, numbers, symbols) until the correct password is found. 
+  
+Effectiveness: Highly time-consuming and often ineffective against strong, long passwords and systems with account lockout policies.   
+
+Variations:
+Full Brute-Force: Tries all possible character combinations of a certain length.
+Masked Brute-Force: The attacker has some knowledge about the password structure (e.g., it starts with a capital letter and ends with a number) and uses this information to narrow down the search space.
+
+2. Dictionary Attacks:
+
+Description: These attacks use a list of common words, names, phrases, and previously compromised passwords (a "dictionary") to try and guess the password. 
+  
+Effectiveness: Effective against weak passwords that are based on common words or easily guessable information.   
+
+3. Hybrid Attacks:
+
+Description: These attacks combine dictionary attacks with brute-force techniques. They might take words from a dictionary and then add variations like numbers, symbols, or common misspellings. 
+  
+Effectiveness: More effective than simple dictionary attacks against slightly more complex passwords.
+
+4. Rule-Based Attacks:
+
+Description: Attackers use predefined rules to modify words from a dictionary. These rules might include capitalization, adding common suffixes or prefixes (like "123" or "!", "admin"), or making common substitutions (like "a" for "@" or "i" for "1").  
+
+Effectiveness: Can be very effective if users follow predictable patterns when creating passwords based on common words.   
+
+5. Social Engineering Attacks:
+
+Description: These attacks manipulate individuals into revealing their passwords or other sensitive information. They don't directly involve technical cracking but rather exploit human psychology.   
+
+Techniques: Phishing emails, pretexting (creating a believable scenario), baiting (offering something tempting in exchange for information), and tailgating (physically following someone into a secure area).
+
+Effectiveness: Can be highly effective against even technically savvy users if the social engineering tactics are well-crafted.
+
+6. Credential Stuffing:
+
+Description: Attackers use lists of usernames and passwords that were compromised in previous data breaches on other websites or services to try and log into different accounts. This relies on the fact that many people reuse the same passwords across multiple platforms.   
+
+Effectiveness: Highly effective when users have poor password hygiene and reuse passwords.  
+
+7. Keylogging:
+
+Description: Malware (like a Trojan horse) is installed on a victim's computer to record their keystrokes, allowing the attacker to capture passwords as they are typed.  
+
+Effectiveness: Can capture even strong and unique passwords if the malware is successfully installed.
+
+8. Shoulder Surfing:
+
+Description: A low-tech attack where an attacker physically observes someone entering their password.
+
+Effectiveness: Effective in public places or situations where privacy screens are not used.
+
+9. Rainbow Table Attacks:
+
+Description: These attacks use pre-computed tables of password hashes to speed up the process of cracking hashed passwords. Instead of calculating hashes on the fly, the attacker can look up the hash in the table to find the corresponding password.   
+
+Effectiveness: Effective against older or weaker hashing algorithms but less so against modern, salted hashing techniques.
