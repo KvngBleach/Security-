@@ -435,3 +435,43 @@ Here's a breakdown of common password attack categories and techniques:
 9. Rainbow Table Attacks:
 
           These attacks use pre-computed tables of password hashes to speed up the process of cracking hashed passwords. Instead of calculating hashes on the fly, the attacker can look up the hash in the table to find the corresponding password. Effective against older or weaker hashing algorithms but less so against modern, salted hashing techniques.
+
+# Security Assessment
+
+## Vulnerability 
+
+</table> A cybersecurity vulnerability is any weakness within an organization’s information systems, internal controls, or system processes that can be exploited by cybercriminals. Through points of vulnerability, cyber adversaries are able to gain access to your system and collect data. Vulnerabilities differ from cyber threats in that they are not introduced on a system, they are there from the beginning. Very rarely are cyber vulnerabilities created as a result of actions taken by cybercriminals, instead, they are usually caused by operating system flaws or network misconfigurations.
+
+### Vulnerability Management 
+
+</table> Vulnerability management is the process of identifying, classifying, mitigating, and remediating system vulnerabilities. Below we will outline three key steps in vulnerability management that you can follow to facilitate a vulnerability management program at your organization:
+
+1. Identify vulnerabilities
+
+          Vulnerability identification is the process of locating and noting exploitable gaps in your network operations. This is typically done through the use of vulnerability scanners which periodically assess network systems for misconfigurations, incorrect file system structures, and more. The results of the scans are then cross-referenced with known security intelligence databases. In order to get accurate results, it is critical that the scanner is properly configured and up-to-date. It is recommended that you administer a test-run during off-hours so that you can evaluate the accuracy of results and make adjustments where necessary.
+
+2. Evaluate vulnerabilities
+
+          After identifying vulnerabilities, the next step is to evaluate the risk they pose to your business using a cybersecurity vulnerability assessment. Vulnerability assessments allow you to assign risk levels to identified threats so that you can prioritize remediation efforts. Effective assessments also enhance compliance efforts as they ensure that vulnerabilities are addressed before they can be exploited.
+
+3. Address vulnerabilities
+
+          Once a vulnerability’s risk level has been determined, you then need to treat the vulnerability. The different ways you can treat a vulnerability include:
+
+          Remediation: Vulnerability remediation involves completely fixing or patching a vulnerability. This is the preferred treatment of vulnerabilities as it eliminates risk.
+
+          Mitigation: Mitigation involves taking steps to lessen the likelihood of a vulnerability being exploited. Vulnerability mitigation is typically performed as a means to buy time until a proper patch is available.
+
+          Acceptance: Taking no action to address a vulnerability is justified when an organization deems it to have a low risk. This is also justifiable when the cost of addressing the vulnerability is greater than the cost incurred if it were to be exploited.
+
+### Common Vulnerabilities
+
+</table> When building a vulnerability management program, there are several key cybersecurity vulnerabilities that you must be aware of. Below are six of the most common types of cybersecurity vulnerabilities:
+
+* System Misconfigurations 
+
+</table> System misconfigurations occur as a result of network assets having vulnerable settings or disparate security controls. A common tactic cybercriminals use is to probe networks for system misconfigurations and gaps that can be exploited. As more organizations adopt digital solutions, the likelihood of network misconfigurations grows, so it is important to work with experienced security professionals when implementing new technologies.
+
+*  Unpatched Software
+
+</table> Unpatched vulnerabilities can be exploited by cybercriminals to carry out attacks and steal valuable data. Similar to system misconfigurations, cyber adversaries will probe networks looking for unpatched systems they can compromise. To limit this risk, It is important to establish a patch management schedule so that all new system patches are implemented as soon as they are released.
