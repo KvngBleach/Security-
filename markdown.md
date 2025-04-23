@@ -593,3 +593,12 @@ Reconnaissance is broadly divided into two main types:
           Network mapping: Discovering the structure and devices within a network using tools like traceroute.
 
           Vulnerability scanning: Using automated tools to identify known security weaknesses.
+
+## Injection Vulnerabilities
+
+</table> SQL injection (SQLi) is a type of cyberattack that exploits vulnerabilities in an application's database layer. It occurs when an attacker inserts malicious SQL code into an entry field, such as a login form or a search bar, which is then executed by the backend database. This can allow the attacker to:
+
+          Bypass security measures: Gain unauthorized access to sensitive data or administrative functions.
+          Retrieve sensitive information: Access user credentials, personal details, financial data, and other confidential information.
+          Modify or delete data: Alter or remove records in the database, potentially causing data loss or corruption.
+          Execute arbitrary commands: In some cases, attackers can even execute operating system commands on the database server.
