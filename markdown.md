@@ -547,3 +547,49 @@ Here's a breakdown of what that looks like:
 * Reporting: Finally, the pen testers document their findings in a detailed report. This report outlines the vulnerabilities discovered, the methods used to exploit them, the potential risks, and provides recommendations for remediation. 
 
 </table> Essentially, penetration testing provides a realistic assessment of your security posture. It helps you understand your weaknesses before the bad guys do, allowing you to strengthen your defenses and protect your valuable data and systems. It's a proactive approach to security, rather than waiting for an actual attack to reveal your vulnerabilities.
+
+## Recoonaissance
+
+</table> Reconnaissance, often called "recon" or "footprinting," is the initial phase of a penetration test. It involves systematically gathering information about the target system, network, or organization before attempting to exploit any vulnerabilities. Think of it as the intelligence-gathering stage in a simulated cyberattack.
+
+The goal of reconnaissance is to build a comprehensive understanding of the target's:
+
+* Infrastructure: Network topology, domains, subdomains, IP addresses, operating systems, and connected devices.
+
+* Applications and Services: Web servers, email servers, databases, and other running applications, along with their versions.
+
+* Security Posture: Firewalls, intrusion detection/prevention systems, and other security controls in place.
+
+* People and Processes: Employee information (email addresses, social media profiles), organizational structure, and business processes that might reveal potential weaknesses.
+
+Reconnaissance helps penetration testers to:
+
+* Identify potential attack vectors: By understanding the target's systems and services, testers can pinpoint areas that might be vulnerable.
+
+* Tailor their attacks: Information gathered during recon allows for more targeted and effective exploitation attempts.
+
+* Avoid detection: A thorough understanding of security controls helps testers craft attacks that are less likely to trigger alarms.
+
+* Understand the organization's overall risk profile: Reconnaissance can reveal publicly exposed sensitive information or misconfigurations.
+
+Reconnaissance is broadly divided into two main types:
+
+* Passive Reconnaissance: This involves gathering information without directly interacting with the target. It relies on publicly available sources such as:
+
+          Open Source Intelligence (OSINT): Search engines, social media, company websites, public records, news articles, and job postings.
+
+          DNS and WHOIS lookups: Obtaining information about domain registration, IP addresses, and name servers.
+
+          Network traffic analysis (indirect): Observing publicly accessible network data.
+
+
+Active Reconnaissance: This involves direct interaction with the target systems to gather information. It's more intrusive and carries a higher risk of detection. Techniques include:
+          Port scanning: Identifying open ports and services running on target systems using tools like Nmap.
+
+          Ping sweeps: Determining active hosts within a network range.
+
+          Banner grabbing: Extracting information about the software and versions running on open ports.
+
+          Network mapping: Discovering the structure and devices within a network using tools like traceroute.
+          
+          Vulnerability scanning: Using automated tools to identify known security weaknesses.
