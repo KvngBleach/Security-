@@ -472,6 +472,48 @@ Here's a breakdown of common password attack categories and techniques:
 
 </table> System misconfigurations occur as a result of network assets having vulnerable settings or disparate security controls. A common tactic cybercriminals use is to probe networks for system misconfigurations and gaps that can be exploited. As more organizations adopt digital solutions, the likelihood of network misconfigurations grows, so it is important to work with experienced security professionals when implementing new technologies.
 
-*  Unpatched Software
+* Unpatched Software
 
 </table> Unpatched vulnerabilities can be exploited by cybercriminals to carry out attacks and steal valuable data. Similar to system misconfigurations, cyber adversaries will probe networks looking for unpatched systems they can compromise. To limit this risk, It is important to establish a patch management schedule so that all new system patches are implemented as soon as they are released.
+
+* Authorization Credentials
+
+</table> A common tactic attackers employ is to brute force their way into a network by guessing employee credentials. It is important to educate employees on cybersecurity best practices so that their login information cannot be easily exploited to gain access to a network.
+
+* Malicious Insider Threat
+
+</table> A malicious insider threat refers to a significant cybersecurity risk originating from individuals within an organization who intentionally misuse their authorized access to harm the organization. These individuals, who could be current or former employees, contractors, or business partners, leverage their legitimate credentials and knowledge of internal systems to conduct harmful activities. The key differentiator of a malicious insider threat is the deliberate intent to cause damage, unlike unintentional insider threats that stem from negligence or human error.   
+
+          Intentional Harm: The actions are not accidental; they are carried out with a specific goal to negatively impact the organization.
+
+          Abuse of Access: Malicious insiders exploit the legitimate access they have been granted to systems, data, or facilities. 
+            
+* Variety of Motives: The reasons behind malicious insider threats can vary widely, including:
+
+          Financial Gain: Stealing and selling sensitive data like customer information, trade secrets, or intellectual property on the dark web, or engaging in fraud and embezzlement.  
+
+          Revenge or Disgruntlement: Acting out of anger or resentment towards the organization due to perceived unfair treatment, missed promotions, or termination.  
+
+          Competitive Advantage or Espionage: Leaking proprietary information or strategic plans to benefit competitors or even foreign governments.
+
+          Personal Use: Accessing and misusing data for personal reasons, such as identity theft or spying on colleagues.  
+
+          Ideological or Political Beliefs: Leaking information to expose perceived wrongdoing or to aid external groups aligned with their cause. 
+  
+          Sabotage: Intentionally damaging or disrupting systems, deleting critical data, or hindering operations purely to cause harm.  
+
+* Diverse Tactics: Malicious insiders can employ various methods to achieve their goals, including:
+
+          Data Theft: Copying, downloading, or transferring sensitive information to unauthorized locations, such as personal devices, email accounts, or cloud storage.   
+
+          Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations. 
+  
+          System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
+
+          Unauthorized Access: Using their legitimate credentials to access information or systems beyond their authorized scope, sometimes to conduct espionage or gather information for future attacks.   
+
+          Introducing Malware: Intentionally introducing viruses, worms, or other malicious software into the organization's systems.   
+
+          Providing Insider Knowledge to External Attackers: Collaborating with external cybercriminals by providing them with information about the organization's vulnerabilities or helping them gain access.   
+
+* Difficulty in Detection: Malicious insider threats can be particularly challenging to detect because the individuals often use their legitimate access, making their actions appear as normal activity. They may also have knowledge of the organization's security measures and know how to circumvent them.   
