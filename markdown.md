@@ -506,9 +506,9 @@ Here's a breakdown of common password attack categories and techniques:
 
           Data Theft: Copying, downloading, or transferring sensitive information to unauthorized locations, such as personal devices, email accounts, or cloud storage.   
 
-          Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations. 
-  
-          System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
+          Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations.
+          
+           System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
 
           Unauthorized Access: Using their legitimate credentials to access information or systems beyond their authorized scope, sometimes to conduct espionage or gather information for future attacks.   
 
@@ -527,5 +527,7 @@ Examples of Malicious Insider Threats:
           An employee with high-level access modifies financial data for personal enrichment.
 
           An employee leaks sensitive internal documents to a journalist.   
-          
+
           A system administrator installs a backdoor in the network to allow unauthorized external access.   
+
+
