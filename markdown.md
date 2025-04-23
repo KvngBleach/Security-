@@ -605,3 +605,58 @@ Reconnaissance is broadly divided into two main types:
          3. Modify or delete data: Alter or remove records in the database, potentially causing data loss or corruption.
 
          4. Execute arbitrary commands: In some cases, attackers can even execute operating system commands on the database server.
+
+         SQL injection vulnerabilities typically arise when user-supplied input is not properly sanitized or validated before being incorporated into SQL queries. For example, consider a simple SQL query that retrieves user information based on a username:
+
+SQL
+
+          SELECT * FROM users WHERE username = '$username';
+
+If the application directly substitutes user input into this query without proper handling, an attacker could enter a malicious string like:
+
+          ' OR '1'='1
+This would modify the query to:
+
+SQL
+
+          SELECT * FROM users WHERE username = '' OR '1'='1';
+
+Since the condition '1'='1' is always true, the query would return all rows from the users table, effectively bypassing the username check.
+
+Types of SQL Injection:
+
+SQL injection attacks can be broadly categorized into:
+
+          In-band SQLi: The attacker uses the same communication channel to both inject the malicious code and retrieve the results. This is the most common type and includes:
+
+          Error-based SQLi: Exploiting database error messages to gather information about the database structure.
+
+          Union-based SQLi: Using the UNION SQL operator to combine the results of malicious queries with legitimate ones.
+
+          Inferential (Blind) SQLi: The attacker cannot see the direct results of their injected code but infers information about the database structure and data by observing the application's behavior and responses. This includes:
+
+          Boolean-based SQLi: Crafting queries that return different results (true or false) based on a condition, allowing the attacker to deduce information bit by bit.
+
+          Time-based SQLi: Injecting queries that cause the database to wait for a specific time, allowing the attacker to infer information based on the response time.
+
+          Out-of-band SQLi: The attacker uses a different channel to retrieve the results of their attack, such as email or a separate network connection. This is less common but can be used when in-band methods are not feasible.
+
+### Prevention
+
+Preventing SQL injection is crucial for application security. Common mitigation techniques include:
+
+* Using parameterized queries (prepared statements): This is the most effective way to prevent SQL injection. Parameterized queries separate SQL code from user-supplied data, treating the data as parameters rather than executable code.
+
+* Input validation and sanitization: Carefully validating and sanitizing all user input to ensure it conforms to expected formats and does not contain malicious characters or SQL keywords. However, this method alone is often insufficient and should be used in conjunction with parameterized queries.
+
+* Principle of least privilege: Granting database users only the necessary permissions to perform their tasks, limiting the potential damage an attacker can cause even if they successfully inject SQL code.
+
+* Web application firewalls (WAFs): Implementing a WAF that can detect and block malicious SQL injection attempts.
+
+* Regular security testing: Conducting regular vulnerability assessments and penetration testing to identify and address potential SQL injection vulnerabilities in applications.
+
+* Keeping software up to date: Ensuring that all software, including the database management system and web application frameworks, is up to date with the latest security patches.
+
+* Disabling verbose error messages: Preventing the application from displaying detailed database error messages to users, as these can provide valuable information to attackers.
+
+* By understanding how SQL injection works and implementing robust security measures, developers can significantly reduce the risk of this prevalent and potentially damaging attack.
