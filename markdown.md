@@ -517,3 +517,15 @@ Here's a breakdown of common password attack categories and techniques:
           Providing Insider Knowledge to External Attackers: Collaborating with external cybercriminals by providing them with information about the organization's vulnerabilities or helping them gain access.   
 
 * Difficulty in Detection: Malicious insider threats can be particularly challenging to detect because the individuals often use their legitimate access, making their actions appear as normal activity. They may also have knowledge of the organization's security measures and know how to circumvent them.   
+
+Examples of Malicious Insider Threats:
+
+           A departing employee steals a customer list to give to their new competitor.
+
+           A disgruntled employee deletes critical financial records before being terminated.  
+           
+          An employee with high-level access modifies financial data for personal enrichment.
+
+          An employee leaks sensitive internal documents to a journalist.   
+          
+          A system administrator installs a backdoor in the network to allow unauthorized external access.   
