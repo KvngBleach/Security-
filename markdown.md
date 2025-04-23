@@ -617,7 +617,7 @@ If the application directly substitutes user input into this query without prope
           ' OR '1'='1
 This would modify the query to:
 
-SQL
+          SQL
 
           SELECT * FROM users WHERE username = '' OR '1'='1';
 
