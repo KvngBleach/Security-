@@ -583,7 +583,7 @@ Reconnaissance is broadly divided into two main types:
           Network traffic analysis (indirect): Observing publicly accessible network data.
 
 
-Active Reconnaissance: This involves direct interaction with the target systems to gather information. It's more intrusive and carries a higher risk of detection. Techniques include:
+* Active Reconnaissance: This involves direct interaction with the target systems to gather information. It's more intrusive and carries a higher risk of detection. Techniques include:
           Port scanning: Identifying open ports and services running on target systems using tools like Nmap.
 
           Ping sweeps: Determining active hosts within a network range.
@@ -591,5 +591,5 @@ Active Reconnaissance: This involves direct interaction with the target systems 
           Banner grabbing: Extracting information about the software and versions running on open ports.
 
           Network mapping: Discovering the structure and devices within a network using tools like traceroute.
-          
+
           Vulnerability scanning: Using automated tools to identify known security weaknesses.
