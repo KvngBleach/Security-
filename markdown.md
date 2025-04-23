@@ -504,11 +504,11 @@ Here's a breakdown of common password attack categories and techniques:
 
 * Diverse Tactics: Malicious insiders can employ various methods to achieve their goals, including:
 
-          Data Theft: Copying, downloading, or transferring sensitive information to unauthorized locations, such as personal devices, email accounts, or cloud storage.   
+     1. Data Theft: Copying, downloading, or transferring sensitive information to unauthorized locations, such as personal devices, email accounts, or cloud storage.   
 
-          Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations.
+     2.  Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations.
           
-           System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
+     3.  System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
 
           Unauthorized Access: Using their legitimate credentials to access information or systems beyond their authorized scope, sometimes to conduct espionage or gather information for future attacks.   
 
@@ -520,14 +520,14 @@ Here's a breakdown of common password attack categories and techniques:
 
 Examples of Malicious Insider Threats:
 
-           A departing employee steals a customer list to give to their new competitor.
+     1. A departing employee steals a customer list to give to their new competitor.
 
-           A disgruntled employee deletes critical financial records before being terminated.  
+     2. A disgruntled employee deletes critical financial records before being terminated.  
            
-          An employee with high-level access modifies financial data for personal enrichment.
+     3. An employee with high-level access modifies financial data for personal enrichment.
 
-          An employee leaks sensitive internal documents to a journalist.   
+     4. An employee leaks sensitive internal documents to a journalist.   
 
-          A system administrator installs a backdoor in the network to allow unauthorized external access.   
+     5. A system administrator installs a backdoor in the network to allow unauthorized external access.   
 
 
