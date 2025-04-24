@@ -2,9 +2,7 @@
 
 ## Administrative/Managerial Controls 
 
-</table> Managerial controls are security policies and procedures established by an organization’s leadership to manage and oversee the security of systems and data. These controls, which are often written documents, focus on planning, assessing, and improving the organization’s security posture.
-
-Here are examples of managerial control.
+</table> Managerial controls are security policies and procedures established by an organization’s leadership to manage and oversee the security of systems and data. These controls, which are often written documents, focus on planning, assessing, and improving the organization’s security posture. Here are examples of managerial control: 
 
 * Security Policies: Security policies are written documents that outline your company’s approach to cybersecurity. They define roles and responsibilities, acceptable use, access control policy, and more.
 
