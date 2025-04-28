@@ -658,3 +658,23 @@ SQL injection attacks can be broadly categorized into:
 * Disabling verbose error messages: Preventing the application from displaying detailed database error messages to users, as these can provide valuable information to attackers.
 
 * By understanding how SQL injection works and implementing robust security measures, developers can significantly reduce the risk of this prevalent and potentially damaging attack.
+
+## Endpoint Security
+
+</table> Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats.   
+
+Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices. 
+
+Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats.   
+
+Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices.   
+
+Here's a breakdown of what endpoint security typically entails:
+
+* Protection: It aims to prevent malicious activity from harming the endpoint. This includes things like viruses, malware, ransomware, phishing attacks, and unauthorized access.
+   
+* Detection: If a threat does manage to bypass initial defenses, endpoint security solutions are designed to quickly identify and flag suspicious behavior.  
+
+* Response: Once a threat is detected, these solutions often have capabilities to automatically isolate the infected device, remove the threat, and help restore the system to a healthy state.   
+
+* Centralized Management: Often, organizations use a central management console to oversee the security posture of all their endpoints, making it easier to deploy policies, monitor activity, and respond to incidents.   
