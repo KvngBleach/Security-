@@ -661,9 +661,7 @@ SQL injection attacks can be broadly categorized into:
 
 ## Endpoint Security
 
-</table> Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats.   
-
-Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices. 
+</table> Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats. Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices. 
 
 Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats.   
 
