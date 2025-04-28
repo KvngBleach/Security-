@@ -701,9 +701,7 @@ Think of it as a layered defense strategy. You might have:
 
 ## Risk Management 
 
-</table> Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events.
-
-Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events.
+</table> Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events. Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events.
 
 Here's a breakdown of the key aspects:
 
