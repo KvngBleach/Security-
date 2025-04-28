@@ -679,6 +679,8 @@ Here's a breakdown of what endpoint security typically entails:
 
 </table> Think of it like this: a castle (your network) has walls and gates (perimeter security). But each person inside the castle (your endpoints) also has their own personal guard (endpoint security) to watch out for individual threats, even if they somehow get past the outer defenses. In today's world, where people work remotely and use a variety of devices, endpoint security has become absolutely crucial for protecting sensitive data and maintaining overall cybersecurity.
 
+## Network Security
+
 </table> Network security is like having a strong and sophisticated security system for your digital world. Imagine your computer network as a house filled with valuable information and resources. Network security encompasses all the measures you take to protect that house and its contents from unauthorized access, use, disclosure, disruption, modification, or destruction.
 
 Think of it as a layered defense strategy. You might have:
