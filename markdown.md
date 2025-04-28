@@ -641,7 +641,7 @@ SQL injection attacks can be broadly categorized into:
 
 ### Prevention
 
-Preventing SQL injection is crucial for application security. Common mitigation techniques include:
+</table> Preventing SQL injection is crucial for application security. Common mitigation techniques include:
 
 * Using parameterized queries (prepared statements): This is the most effective way to prevent SQL injection. Parameterized queries separate SQL code from user-supplied data, treating the data as parameters rather than executable code.
 
