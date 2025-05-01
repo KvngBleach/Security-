@@ -729,7 +729,7 @@ Here's a breakdown of the key aspects:
 
 To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launched on November 7, 2023, and will retire approximately three years from its release date, it's crucial to focus on the official exam objectives. These objectives are divided into five key domains:
 
-1. General Security Concepts (12% of the Exam):
+### General Security Concepts (12% of the Exam):
 
 * Security Controls: Understand and differentiate between various types of security controls, including technical (e.g., firewalls, antivirus), administrative (e.g., policies, procedures), physical (e.g., locks, surveillance), preventative, detective, deterrent, corrective, compensating, and directive controls.
 
@@ -739,7 +739,7 @@ To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launc
 
 * Deception and Disruption Technologies: Understand technologies like honeypots and their role in security.
 
-2. Threats, Vulnerabilities, and Mitigations (22% of the Exam):
+### Threats, Vulnerabilities, and Mitigations (22% of the Exam):
 
 * Threat Actors and Motivations: Compare and contrast common threat actors (e.g., script kiddies, hacktivists, state-sponsored actors, insider threats) and their motivations.
 
@@ -763,7 +763,7 @@ To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launc
 
 * Mitigation Techniques: Explain and compare various mitigation techniques used to secure the enterprise, including segmentation, access control lists, application allow lists, isolation, patching, encryption, monitoring, least privilege, configuration enforcement, decommissioning, and hardening techniques (e.g., host-based firewalls, HIPS, disabling unnecessary ports/protocols).
 
-3. Security Architecture (18% of the Exam):
+### Security Architecture (18% of the Exam):
 
 * Security Implications of Architecture Models: Compare and contrast the security implications of different architecture models (e.g., on-premises, cloud, hybrid).
 
@@ -779,7 +779,7 @@ To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launc
 
 * Physical Security: Explain the importance of physical security controls in the overall security architecture.
 
-4. Security Operations (28% of the Exam):
+### Security Operations (28% of the Exam):
 
 * Security Techniques for Computing Resources: Apply common security techniques to computing resources, including operating system hardening, application security best practices, and secure configuration.
 
@@ -801,7 +801,7 @@ To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launc
 
 * Digital Forensics Basics: Explain the key aspects of digital forensics.
 
-5. Security Program Management and Oversight (20% of the Exam):
+### Security Program Management and Oversight (20% of the Exam):
 
 * Elements of Effective Security Governance: Summarize elements of effective security governance, including policies, standards, and frameworks.
 
