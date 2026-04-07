@@ -819,6 +819,107 @@ Study Relevant Materials: Use study guides, practice exams, and other resources 
 
 Gain Hands-on Experience: If possible, get practical experience with the technologies and concepts covered in the exam.
 
+1	2FA	Two-Factor Authentication
+2	AC	Access Control
+3	AI	Artificial Intelligence
+4	AES	Advanced Encryption Standard
+5	APT	Advanced Persistent Threat
+6	APWG	Anti-Phishing Working Group
+7	ASV	Approved Scanning Vendor for PCI
+8	ATT&CK	Adversarial Tactics, Techniques and Common Knowledge
+9	AUP	Acceptable Use Policy
+10	AV	Antivirus
+11	AVIEN	Antivirus Information Exchange Network
+12	BAS	Breach and Attack Simulation
+13	BBP	Bug Bounty Program
+14	BYOD	Bring Your Own Device
+15	CASB	Cloud Access Security Broker
+16	CAPTCHA	Completely Automated Public Turing Test to Tell Computers and Humans Apart
+17	CEH	Certified Ethical Hacker
+18	CERT	Computer Emergency Response Team
+19	CHAP	Challenge-Handshake Authentication Protocol
+20	CIRT	Computer Incident Response Team
+21	CIS	Center for Internet Security
+22	CISA	Certified Information Systems Auditor/Cybersecurity and Infrastructure Security Agency
+23	CISM	Certified Information Systems Security Manager
+24	CISO	Chief Information Security Officer
+25	CISSP	Certified Information Systems Security Professional
+26	COBIT	Control Objectives for Information and Related Technologies
+27	CSA	Cloud Security Alliance
+28	CSO	Chief Security Officer
+29	CSP	Content Security Policy
+30	CTI	Cyber Threat Intelligence
+31	CVE	Common Vulnerabilities and Exposures
+32	DAST	Dynamic Application Security Testing
+33	DC	Domain Controller
+34	DLP	Data Loss Prevention
+35	DoS	Denial of Service
+36	DDoS	Distributed Denial of Service
+37	DNS	Domain Name System
+38	DRP	Disaster Recovery Plan
+39	EDR	Endpoint Detection & Response
+40	ERM	Enterprise Risk Management
+41	FDE	Full Disk Encryption
+42	FWaaS	Firewall as a Service
+43	GDPR	General Data Privacy Regulation
+44	GRC	Governance, Risk, & Compliance
+45	HTTPS	Hypertext Transfer Protocol Secure
+46	IAM	Identity and Access Management
+47	IBE	Identity-Based Encryption
+48	IDS	Intrusion Detection System
+49	IDPS	Intrusion Detection and Prevention System
+50	IoT	Internet of Things
+51	IPS	Intrusion Prevention System
+52	IRP	Incident Response Plan
+53	ISO	International Organization for Standardization
+54	ISSE	Information Systems Security Engineer
+55	ISSO	Information Systems Security Officer
+56	ISSPM	Information Systems Security Project Manager
+57	ITAM	IT Asset Management
+58	ITSM	IT Service Management
+59	MDR	Managed Detection and Response
+60	MFA	Multi-Factor Authentication
+61	MSP	Managed Service Provider
+62	MSSP	Managed Security Service Provider
+63	NAC	Network Access Control
+64	NCSA	National Cyber Security Alliance
+65	NGFW	Next Generation Firewall
+66	NIST	National Institutes of Standards and Technology
+67	PAOBOAU	Process Acting On Behalf Of an Authorized User
+68	OPSEC	Operational Security
+69	OSINT	Open Source intelligence
+70	PAM	Privileged Access Management
+71	PCI-DSS	Payment Card Industry Data Security Standard
+72	RM	Risk Management
+73	RMF	Risk Management Framework
+74	RPO	Recovery Point Objective
+75	RTO	Recovery Time Objective
+76	SA	Situational Awareness
+77	SASE	Secure Access Service Edge
+78	SD-WAN	Software Defined Wide Area Network
+79	SECaaS	Security as a Service
+80	SIEM	Security Information and Event Management
+81	SIM	Security Information Management
+82	SOAR	Security Orchestration, Automation, and Response
+83	SOC	Security Operations Center
+84	SSL	Secure Sockets Layer
+85	SSO	Single Sign-On
+86	SWG	Secure Web Gateway
+87	TCP	Transport Control Protocol
+88	TLS	Transport Layer Security
+89	TPRM	Third-Party Risk Management
+90	UDP	User Datagram Protocol
+91	UEBA	User and Entity Behavior Analytics
+92	VPN	Virtual Private Network
+93	WAF	Web Application Firewall
+94	WAP	Wireless Access Point
+95	WAAPaaS	Web Application and API Protection as a Service
+96	WPA	WiFi Protected Access
+97	WPS	WiFi Protected Setup
+98	WTLS	Wireless Transport Layer Security
+99	XDR	Extended Detection and Response
+100	ZTNA	Zero Trust Network Access
+
 Practice Performance-Based Questions (PBQs): Familiarize yourself with PBQ formats as they simulate real-world scenarios.
 
 Manage Your Study Time: Allocate sufficient time to cover all exam domains, focusing more on the domains with higher weightage.
