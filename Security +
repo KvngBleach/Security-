@@ -1,927 +1,498 @@
-# Security Concepts
+Effective Security Governance
+An organization’s cybersecurity program is commonly influenced by applicable government regulations, proven cybersecurity standards, and best practice frameworks. You should be able to identify common regulations, trusted industry groups, accepted benchmarks, and secure configuration guides. Additionally, you should be able to summarize all of these elements.
 
-## Administrative/Managerial Controls 
+Guidelines
+Guidelines are suggestions for best practices and recommendations that are not mandatory for meeting compliance. Guidelines can be used as reference points to create policies that meet the needs of the organization.
 
-</table> Managerial controls are security policies and procedures established by an organization’s leadership to manage and oversee the security of systems and data. These controls, which are often written documents, focus on planning, assessing, and improving the organization’s security posture. Here are examples of managerial control: 
+Policies
+Organizational security extends beyond technical controls and best practices to include every person or entity interacting with an organization. Policies are statements that define management intent and objectives and are highly useful in maintaining and establishing organizational security. You must understand and be able to explain the importance of different policies related to organizational security.
 
-* Security Policies: Security policies are written documents that outline your company’s approach to cybersecurity. They define roles and responsibilities, acceptable use, access control policy, and more.
+Acceptable Use Policy (AUP)
+An AUP defines how an employee or other entity can use a company’s network, system, or device. For example, it may include a prohibition against using company devices for personal matters.
 
-* Incident Response Plan: An incident response plan explains the process and procedures your organization should follow to identify, manage, and respond to security threats.
+Information Security Policies (ISP)
+An ISP is an organizational policy that provides a broad overview of how an organization secures information and data. It may include high-level policies about all parts of information security including credential policies, facilities policies, change management, onboarding/offboarding, and encryption.
 
-## Physical Controls 
+Business Continuity (BC) Plan
+A BC plan is designed to ensure that a business continues to function even when a breach or incident occurs. For example, if an incident requires a set of servers to be contained and separated from the network, the BC plan will specify where the services running on those servers will be shifted to maintain functionality.
 
-</table> Physical security controls are security measures that you can touch. They work by discouraging potential intruders from entering your premises.
+Disaster Recovery (DR) Plan
+A DR plan is designed to address how an organization will respond to a major disaster, such as a tornado, fire, or flood, to restore or continue services as quickly and effectively as possible.
 
-Here are key examples of physical security controls:
+Incident Response (IR) Plan
+An IR plan is a set of guidelines that outline what steps should be taken in response to an incident, from detection to lessons learned. In addition to involving the IR team, it may include a communication plan, a stakeholder management plan, a BC plan, a DR plan, a continuity of operations plan (COOP), and a retention plan.
 
-* Access Control Systems: Keycards or biometric scanners help restrict entry to authorized personnel only.
+Software Development Lifecycle (SDLC) Policy
+An SDLC policy defines how software, either organizationally developed or vendor developed, will be secured through the entire software lifecycle. These policies commonly relate to the software environment, testing, execution, maintenance, and provisioning/deprovisioning, among other concerns.
 
-* Surveillance Cameras: Surveillance cameras monitor activities and deter crime by making potential intruders aware they are being watched. Additionally, they provide useful evidence for investigations.
+Change Management Policy
+A change management policy defines how a change will be submitted, approved, and implemented. These policies are designed to take both operational risk and cybersecurity into consideration during the change management process.
 
-* Security Personnel: Employing trained security guards to patrol the premises can discourage unauthorized personnel from entering your premises.
+Standards
+A standard is a specific set of mandatory security requirements that an organization must follow to meet compliance. Standards are used as a baseline for organizational security and may include mandatory minimal configurations and security controls. Standards are more fluid than policies and frequently change based on emerging security information.
 
-* Fencing and Barriers: Fences and barriers dissuade potential intruders from entering your premises.
+Password
+Password standards may include minimum requirements for password creation and use, including length, character use, reuse, and validity length.
 
-## Technical/Logical Controls 
+Access Control
+An access control standard defines minimum requirements pertaining to the account lifecycle and may include onboarding and offboarding policies, password requirements, shared usage, and access requirements. Access control standards may also include requirements for third-party vendors, as well as credentialing for devices and accounts, including service and administrative accounts.
 
-</table> Technical controls use hardware and software to protect your IT infrastructure. Once your IT administrators have installed and configured technical security controls, they will start protecting your systems and resources automatically.
+Physical Security
+Physical security standards include minimum requirements for securing the physical premises and assets of an organization. They often involve requirements for access control, security monitoring, and visitor entry.
 
-Here are popular examples of technical security controls.
+Encryption
+An encryption standard details the minimum requirements for data encryption at all organizational stages, including required minimum encryption algorithms for data at rest and in transit.
 
-* Firewalls: Firewalls check and control incoming and outgoing network traffic based on predetermined security rules. They act as a security barrier between trusted internal networks and untrusted external networks, effectively blocking unauthorized access and helping to prevent cyber attacks.
+Procedures
+A procedure is a detailed set of steps that are mandatory to follow for compliance under specific circumstances. Procedures are developed with higher level policies in mind, including organizational and regulatory guidelines, and used to establish standards specific to a situation or scenario. Procedures create consistency in a security program.
 
-* Multi-factor Authentication (MFA): If you implement Multi-Factor Authentication (MFA) in your organization, users must provide multiple forms of verification, such as a password and a text message code, before accessing systems. This practice makes it challenging for threat actors to gain unauthorized access to user accounts, even if they successfully obtain passwords using brute force attack tools.
+Change Management
+Change management procedures, or change control procedures, are a more specific type of change management that evaluates how a specific change will be sourced, analyzed, and managed to provide a roadmap for the most effective implementation of the change.
 
-* Encryption: Encrypting sensitive data in your organization protects it from prying eyes. Even if hackers intercept your data during transmission or gain unauthorized access, they cannot read or understand it.
+Onboarding/Offboarding
+Onboarding is the process of adding a new employee to a network or company. Onboarding procedures standardize this process and outline the specific steps to follow to add a new employee securely. Offboarding is the process of removing an employee from a network or company after termination. Offboarding procedures define the necessary steps to securely remove an employee, including the revocation of permissions and user accounts, exit interviews, and retention of assets.
 
-* Intrusion Detection and Prevention System (IDPS): IDPS detect and block security threats before it can cause any harm to your IT network. It is an important technical security control used by most organizations today.
+Playbooks
+A playbook is a procedural guide used to perform specific actions during an incident response. A playbook breaks down the steps needed to complete a task. For example, if a ransomware attack has been identified on a company device, a playbook could be used to identify the exact steps that should be taken to contain, eliminate, and recover from the ransomware attack.
 
-* Endpoint Protection Platform (EPP): Endpoint protection platforms offer various security features, such as data loss protection, protection from malicious downloads, incident investigation and remediation, and more. These features help protect endpoints from security threats.
+External Considerations
+When developing a security program, there are also external considerations to keep in mind. To protect data, government agencies have developed and adopted various regulations, standards, and legislation to define minimum security requirements, as well as suggested best practices. These standards and regulations may be based on the sector the business operates in or the location of the business.
 
-## Operational Controls 
+Regulatory
+Regulatory requirements are mandatory and legally enforceable security requirements that place standards and guidelines on how an organization protects itself, their data, and their customers from threats in the cyber landscape. Regulations can be industrywide, local, regional, national, or global in scope.
 
-</table> Operational controls focus on making sure that your organisational day-to-day operations are aligned with your overall security goals. Unlike technical controls that are executed by systems, these controls are often executed by people.
+Legal
+Legal considerations are legally enforced laws or regulations that may apply to an organization. Failure to comply may result in legal ramifications for the organization or individuals within the organization.
 
-Here are examples of operational controls:
+Industry
+Industry considerations are the laws and regulations that are specific to an industry. For example, the Health Insurance Portability and Accountability Act (HIPAA) is a regulation for medically affiliated entities that sets security standards for the use, storage, and transmission of personal medical information.
 
-* Configuration Management: A configuration management plan ensures that all systems use secure baseline settings instead of default settings. This helps prevent hackers from exploiting vulnerabilities that result from poor configuration settings.
+Local/Regional
+Local and regional laws may differ from location to location but must be complied with by any industry or business interacting with that location. For example, the General Data Protection Regulation (GDPR) is a set of security and privacy requirements that must be adhered to by any entity that interacts with the personal information of European Union (EU) residents. Similarly, if a business is based in Florida but uses a data center in California, the business must comply with the laws and regulations set by both states.
 
-* Security Awareness Training: Regular cybersecurity training helps your employees follow cybersecurity best practices, such as creating strong passwords, understanding threats of social engineering attacks, and avoiding clicking unknown links. This helps your company to meet its overall security goals.
+National
+National requirements are commonly created by a country’s government to place mandatory requirements on organizations that operate within their boundaries. For example, the Federal Information Security Modernization Act (FISMA) places cybersecurity requirements on all federal information systems in the United States.
 
-* User account Management: Managing user accounts involves giving the right access to individuals based on their roles and deleting accounts once employees leave the company. Use account management helps ensure that data access aligns with the least privilege principle.
+Global
+Global considerations are created to provide internationally accepted best practices, guidelines, and recommendations for creating a secure cyber landscape. Global considerations are only guidelines and are not mandatory, as there is no single international governing body to enforce them.
 
-* Patch Management: Regularly updating and applying software patches is an ongoing operational task to prevent vulnerabilities, ensuring that day-to-day system management is in line with security goals. You can explore these best patch management software to automate updates in your organization.
+Monitoring and Revision
+As the cyber landscape evolves, guidelines and regulations may be revised to meet current security needs. Monitoring all applicable regulations for revisions is an important aspect of creating a viable cybersecurity program. Regulations established and maintained by smaller governing bodies are more prone to revision than regulations set by larger governing agencies.
 
-# Defending Against Attacks
+Types of Governance Structures
+Governance refers to the method that an organization uses to monitor and control their security program. Governance provides an organization, especially a very large organization, to protect the interests of the organization through oversight and policy implementation. Governance structures vary in size and organizational structure depending on the organization’s needs.
 
-## Preventative Controls
+Boards
+A board is a group of high-level individuals appointed by shareholders in the organization to delegate management duties to appropriate senior employees. A board, or a board of directors, is a component of a hierarchical structure. One common hierarchical structure has the shareholders on top, followed by the board of directors, upper management (such as the CEO and CFO), and so on through the lower levels of management. Each level of the structure answers to the level above.
 
-</table> Preventive security controls, as the name suggests, protect your IT infrastructure from threats and attacks by preventing security threats from occurring. Some people call them preventative controls, but both terms mean the same thing. 
+Committees
+A committee is a group of individuals chosen to oversee and manage a specific component of an organization. Committees may include subject matter experts and members of upper management.
 
-Here are key examples of preventive controls:
+Government Entities
+Government entities are government-sponsored and supported groups that are appointed to oversee the creation of policies and compliance with said policies. For example, the Cybersecurity and Infrastructure Security Agency (CISA) is the government agency responsible for the security and resilience of critical infrastructures.
 
-* Hardening: Application hardening involves enhancing security beyond the default settings. This process includes actions like changing default passwords to strong ones, enabling multi-factor authentication, blocking open ports, and deactivating unnecessary accounts. Reducing the attack surface by hardening limits opportunities for hackers to exploit vulnerabilities in the application.
+Centralized/Decentralized
+Centralized governance is a hierarchical, top-to-bottom method of governance where a top entity is responsible for policies, standards, and the manner in which they are followed, which must then be complied with at all lower levels. A decentralized governance model is one that relies on the lower portions of the organization to uphold the security policies and standards of the primary organization in the manner in which they see fit. In other words, centralized governance provides the what and how, while decentralized governance provides the what but leaves the how up to the organization.
 
-* Firewall: A firewall monitors and controls incoming and outgoing traffic based on predetermined security rules. By filtering malicious data packets, a firewall can block unauthorized access while allowing legitimate traffic. This prevents hackers from reaching internal systems, thereby acting as an effective preventive security control. You can explore these managed firewalls to find the best solution for your company.
+Roles and Responsibilities for Systems and Data
+The most efficient method for protecting data is using clearly defined roles and responsibilities. These roles and responsibilities define who owns the data, who manages the data, who uses the data, and who protects the data, as well as the policies and procedures that each role should follow to maintain the highest level of data security and protection.
 
-* Intrusion Prevention System (IPS): An Intrusion Prevention System (IPS) actively detects and blocks security threats before they can reach your network, preventing potential security incidents. We have prepared a list of the best IPS software to help you make an informed decision based on your needs.
+Owners
+The data owner is at the highest level and is responsible for data. Data ownership should be placed in the hands of someone who best understands the data they are responsible for. For example, the data owner for employee data may be the head of the Human Resources department.
 
-* Antivirus Software: An Antivirus program protects systems from various types of malware, including viruses, ransomware, spyware, and more. You can check these antivirus software to pick the right program for your business.
+Controllers
+A data controller is the person responsible for deciding what and why data needs to be collected and how that data should be processed. The term data controller is primarily used with European entities within the EU and is similar to a data owner.
 
-* Regular Software Updates: Keeping your systems’ software and operating systems up-to-date prevents threat actors from exploiting known vulnerabilities to enter your network.
+Processors
+Data processors are the intermediaries who process data for and according to the specifications of the data owner or data controller. For example, retailers have agreements with data processing companies that process their credit card transactions.
 
-* Account Disablement Policy: An account disablement policy makes sure that all accounts associated with an employee are disabled when they leave your organization. This prevents them from accessing confidential data after their departure. Failing to deactivate ex-employee accounts poses a severe security risk, as they could leak sensitive information to competitors or post it online out of resentment, causing a data breach.
+Custodians/Stewards
+A data custodian or steward is the person responsible for the safekeeping and protection of data. A data custodian primarily focuses on the technical aspects of data security as opposed to the content or usage of the stored data. A data steward, however, is responsible for the content and usage of the data collected.
 
-## Detective Controls 
+Risk Management
+There is risk associated with every aspect of business, including cybersecurity. When engaging in business, it is not possible to avoid all risks. This is where risk management and its related concepts come into play. Risk management is how an organization identifies and responds to potential risks. You will need to be able to identify and summarize common risk management processes and concepts.
 
-</table> Detective security controls help you identify when vulnerabilities were exploited, paving the way for hackers to intrude into your systems. You need to understand that detectives can identify an event once it has occurred.
+Risk Identification
+The risk identification process involves determining any risk an organization and its networking environment may face. This process identifies malicious risks (such as data breaches), environmental risks (such as natural disasters), governance risks (such as compliance), and repercussion risks (such as financial and reputational harm), among other risk types.
 
-Here are key examples of detective security controls.
+Risk Assessment
+A risk assessment is the process of assigning a risk severity value to an identified risk by assessing how likely the risk is to occur and what potential impact the risk would have on the organization if it occurs. Risk severity is commonly expressed using the following formula:
 
-* Security Incident Event Management Tools (SIEM): SIEM systems collect and analyze data from multiple networking sources, such as router, firewall, and endpoints to detect security threats in real time. They help identify suspicious activities and provide alerts for possible incidents.
+Ad Hoc
+An ad hoc risk assessment is one that is conducted as a response to an occurrence or event. Ad hoc assessments are commonly expedited assessments that can be used to address a particular situation or event.
 
-* Intrusion Detection System: An IDS monitors network traffic or system activities to detect any unusual or unauthorized actions. When it detects potential threats or intrusions, it generates alerts, allowing security teams to respond promptly.
+Recurring
+A recurring risk assessment is conducted at preset intervals to monitor a risk, its potential impact, and the associated risk response. A recurring risk assessment can be used to ensure the risk response is still appropriate to the severity of the risk in the current environment.
 
-* Motion Detectors: These devices detect movements in areas where there shouldn’t be any activity, such as restricted areas. Motion detectors alert security personnel to investigate any detected motion that could indicate an intrusion.
+One-Time
+A one-time risk assessment is a point-in-time risk assessment that is used to provide a generalized overview of an organization’s risk profile. One-time risk assessments are commonly used to provide a high-level view of the organization’s current risk state.
 
-* Video Surveillance Camera: These cameras record activities in various areas of your facility, allowing your security teams to use this footage to detect suspicious behavior or review incidents after they occur to understand how they happened.
+Continuous
+A continuous risk assessment is one that monitors a risk on an ongoing basis. Continuous risk assessments are commonly automated and can be used to identify new or emerging threats and then alert the organization to the possible risk.
 
-## Deterrents Controls
+Risk Analysis
+Risk analysis involves the processes, methods, and technologies used to track, analyze, and evaluate risk. This analysis identifies potential risks and determines their risk severity, which is used to choose which risk management strategy best fits the situation. A risk assessment type refers to how risk data is collected and analyzed. Some risks can be numerically calculated, while other risks are more intangible in nature and require a different assessment metric.
 
-</table> Deterrent controls reduce the likelihood of attacks by discouraging bad actors from attacking. They can also dissuade your staff from taking a casual approach to cybersecurity.
+Qualitative
+A qualitative risk assessment is dependent on subjective knowledge and experience. A qualitative risk assessor may rate a risk on a scale of one to five or from low to high based on their knowledge and experience. A qualitative risk assessment tends to be quicker than a quantitative one and may be useful when the risk is more difficult to define numerically.
 
-Here are a few widely used examples of deterrent controls:
+Quantitative
+A quantitative risk assessment uses numerical data, mathematical algorithms, statistics, and probability to produce replicable results. A quantitative risk analysis tends to require more time for data collection and commonly leverages pre-defined metrics for analysis. The risk severity formula discussed above is used for this type of risk assessment.
 
-* Warning Signs: Warning signs stating that the facility is under surveillance cameras can discourage many intruders from entering.
+Exposure Factor
+EF is the exposure factor, or how much damage an asset will incur when exposed to a specified risk (expressed as a percent).
 
-* Login Banners: Displaying login banners that declare unauthorized access a crime can deter your staff members from attempting to access accounts they don’t own, even if they know the login credentials.
+Single Loss Expectancy (SLE)
+The SLE is the monetary amount of damage that would be incurred, based on the cost of the asset, or asset value (AV), every time a specified risk occurs. It is calculated using this formula:
 
-* Security Guards: The presence of security guards in your facility can discourage many unauthorized individuals from entering your premises.
+ #### Annualized Rate of Occurrence (ARO)
 
-* Lighting: Proper lighting that eliminates dark spots in your facility can deter intruders who use darkness to gain unauthorized entry into a building.
+The ARO (also known as the annual rate of occurrence) is a numerical calculation of how many times a risk is expected to occur in a year. For example, if a risk is expected to occur twice in a year, the ARO would be 2.0.
 
-* Security Policies: Security policies that clearly outline the disciplinary consequences of violating cybersecurity best practices can discourage employees from showing a lax attitude towards cybersecurity.
+Annualized Loss Expectancy (ALE)
+The ALE is how much monetary damage can be expected each year from a specified risk. The formula for ALE is:
 
-## Corrective Controls 
+Probability
+The probability of a risk places a numerical value on the chance of a vulnerability being exploited over a specific period of time.
 
-</table> Once inside your network, threat actors are likely to cause severe damage, impacting your IT resources’ confidentiality, integrity, and availability. They can encrypt files, install spyware, steal data, and whatnot.
+Likelihood
+The likelihood of occurrence is the probability that a risk will occur. It is commonly expressed as a percentage.
 
-Corrective controls are used to reverse the damage caused by a security incident after it happened. The objective of corrective controls is to get things back to normal as soon as possible.
+Impact
+The impact refers to what effect a risk would have on an organization if it were to occur. The impact may include financial impacts, operational impacts, and reputational impacts.
 
-Here are key examples of corrective controls.
+Risk Register
+A risk register is a comprehensive guide to potential risks an organization may encounter, with information on their likelihood, impact, description, and any other details that may be valuable to an organization. Due to the extensive nature of the information contained in a risk register, a heat map or heat matrix is commonly used to present a concise version of the data. A risk matrix, also known as a heat map, provides a digestible visualization of a risk, which can be used by company leaders to make a decision on how to respond. A risk matrix is typically a box matrix that shows the impact on one axis and the likelihood of occurrence on the other, with designations of low, medium, and high.
 
-* Antivirus Software: After an infection occurs, antivirus programs can scan the device, quarantine infected files, and restore the system to a secure state.
+Key Risk Indicator (KRI)
+KRIs are metrics that can be used to identify increasing risk levels, the effectiveness of current risk controls, and the maintenance of acceptable residual risk. KRIs vary by organization and can be configured to meet specific needs. For example, a KRI for malware could be employee credential exposure or employee downloads of affected files.
 
-* Restoration from Backups: If data is lost due to a cyberattack or system failure, restoring from backups helps recover the information and minimize downtime.
+Risk Owners
+The risk owner is the individual or entity who assumes the responsibility of the oversight and management of risks. Risk owners are also responsible for implementing controls to mitigate the identified risks.
 
-* Password Resets: After a security breach occurs, you should reset all passwords to prevent unauthorized access. This process helps secure accounts and ensures that only authorized users regain access.
+Risk Threshold
+The risk threshold is the predefined boundary at which a risk becomes too high. When the risk threshold is reached, action is taken to reduce the risk. A risk threshold is typically a quantifiable metric or value.
 
-* Security Training: Providing additional employee training after a security incident helps raise awareness of potential threats and proper security practices. This training reinforces the importance of following security protocols and helps prevent future incidents.
+Risk Appetite
+The risk appetite is the amount of risk an organization is willing to take. The risk appetite is a method used to balance operationality with protection against a risk.
 
-## Compensating Controls 
+Expansionary
+An expansionary risk appetite is one that is willing to take higher risks for the chance of higher rewards. For example, a startup may be willing to assume higher risks with higher consequences to increase its market share quickly.
 
-</table> Compensating security controls are implemented when organizations cannot apply primary security controls or when those primary controls do not provide adequate protection.
+Conservative
+A conservative risk appetite is one that tends to avoid risk, focusing on the protection of current assets and stability. For example, a large organization with a dominant foothold in market share may not be willing to take risks with its assets, data, or current consumer base.
 
-Here are some examples of compensating controls.
+Neutral
+A neutral risk appetite is one that attempts to reach a balance between conservative risk and expansionary risk. For example, an established organization may choose to take mild risks for moderate growth while also protecting current assets and stability.
 
-* Strict Access Controls: If an organization cannot segregate duties for sensitive processes, it might implement strict access controls and carry out regular security audits to monitor user activities.
+Risk Tolerance
+Risk tolerance is the ability of an organization to withstand a risk and maintain operational functionality, primarily as it surpasses the organization’s risk appetite.
 
-* Data Loss Prevention (DLP) Solutions: If encryption is not possible for data in transit, organizations may implement DLP solutions to monitor and control the flow of sensitive information outside the network.
+Risk Management Strategies
+A risk management strategy is the stance an organization takes after evaluating the risk associated with an organization. Risk management strategies consider both quantitative and qualitative metrics before deciding on which strategy to adopt.
 
-* Employee Training and Awareness: If technical controls like spam filters cannot effectively prevent phishing attacks, providing extensive staff training on recognizing and responding to phishing attacks, email spoofing, typosquatting, and other security threats can serve as a compensating control.
+Transfer
+A risk transfer, or risk transference, is the shifting of risk impact from one organization to another. The most common example of transference is the purchase of insurance.
 
-## Directive Controls
+Accept
+Accepting a risk, or risk acceptance, occurs when an organization weighs the associated risks and decides that the cost of addressing the risk is higher than the potential impact (financial, operational, or legal) of the risk. Acceptance is the “do nothing” approach.
 
-</table> Directive security controls provide guidance for users to follow in security-related situations. These controls are typically documented instructions rather than technical tools aimed at achieving security objectives. Their primary purpose is to influence and direct the behavior of individuals within an organization to meet specific security goals.
+Exemption
+An exemption is a form of risk acceptance that acknowledges and approves the acceptance of a risk that lies beyond the risk appetite and risk tolerance of the organization. An exemption is typically a more formal type of acceptance, requiring documentation and approval from organizational leaders, and often comes with a predefined expiration.
 
-Examples of directive security controls include:
+Exception
+An exception is a form of risk acceptance that is used to allow for non-compliance to standards, policies, or procedures that are typically employed to mitigate the stated risk. Exceptions are most commonly granted on a case-by-case basis with complete awareness of the known risk.
 
-* Acceptable Use Policy: A written document outlining the acceptable behaviors and practices for using organizational resources, such as computers, networks, and internet access.
+Avoid
+Avoiding a risk, or risk avoidance, is the decision to completely eliminate the risk by not engaging in the risky behavior. Avoidance, while it may sound tempting, is often not conducive to productivity and operations, as it could necessitate foregoing the most expedient or appropriate method.
 
-* Security Awareness Training: These training programs are designed to educate employees about cybersecurity threats, best practices, and their roles in protecting the organization’s assets and information.
+Mitigate
+Mitigating a risk, or risk mitigation, is the risk strategy that attempts to reduce the potential for and impact of a risk. This is the midway stance between acceptance and avoidance.
 
-* Incident Response Plan: An incident response plan is a written document that guides security teams in taking the necessary steps to minimize the impact of a security incident on the confidentiality, integrity, and availability of resources. It also helps restore systems to normal operation.
+Risk Reporting
+Risk reporting is the process of creating, maintaining, and providing documentation as to the status of risk, which is then presented to the stakeholders of an organization to inform the decision-making process. Risk reports may include risk updates, risk trend analysis, ad hoc risk reports, and risk event reports, among other details. Risk reports are intended to be easily digestible and should be tailored to the intended audience.
 
-## Importance of Security Controls
+Business Impact Analysis (BIA)
+A BIA is designed to identify the most critical functions an organization requires to operate as well as the systems that support these functions. A BIA uses multiple metrics to identify and evaluate critical functions, with Security+ specifically defining four key metrics: recovery time objective, recovery point objective, mean time to repair, and mean time between failures.
 
-</table> Security controls protect your organization from security threats by identifying, mitigating, and reducing the impact of security incidents.
+Recovery Time Objective (RTO)
+The RTO is the time duration after a system failure but before repair that the organization can tolerate.
 
-Here are key reasons why it is important to implement security controls.
+Recovery Point Objective (RPO)
+The RPO is the amount of data loss that an organization can tolerate during a system failure.
 
-* Risk Mitigation: Security controls reduce the likelihood and impact of security incidents.
+Mean Time to Repair (MTTR)
+The MTTR is the average amount of time it takes to restore a system to normal functionality after a failure.
 
-* Data Protection: Security controls protect your data from unauthorized access. They can help you ensure the confidentiality, integrity, and availability of your data resources. You can check these data security solutions to protect data in your organization.
+Mean Time Between Failures (MTBF)
+The MTBF is the average time that occurs between failures. The MTBF provides a metric for system reliability.
 
-* Regulatory Compliance: Depending on your industry, you may be liable to some regulations like the General Data Protection Regulation (GDPR) or the Health Insurance Portability and Accountability Act (HIPPA) that require you to implement security measures to protect your customers’ data. Implementation of various security controls strategically can help you meet regulatory compliance.
+Third-Party Risk Assessment and Management
+Most organizations interact with outside or third-party entities regularly. While an organization controls how its employees are trained, there is no way to ensure that third parties have the same security measures or training in place. There are techniques that can be employed to reduce the vulnerabilities incurred by using third parties in order to reduce the vulnerabilities incurred by third-party risk management. For the Security+ exam, you must be able to explain the processes associated with third-party risk assessment and management.
 
-* Trust and Reputation: Security controls reduce the frequency and impact of security incidents. This prioritization of security enhances trust and reputation among customers, vendors, stakeholders, and third parties, as they feel more secure working with organizations that take security seriously.
+Vendor Assessment
+A vendor assessment is the process of testing to ensure a vendor is meeting the agreed-upon security requirements. Vendor assessments may be conducted via methods such as penetration testing, client audits, internal audit documentation, independent assessments, and analysis of the supply chain.
 
-# Malware Types
+Penetration Testing
+Penetration testing of a vendor is a useful tool that can be used to identify potential vendor vulnerabilities. Penetration testing of a vendor by a client should be authorized prior to initiation of the simulation to minimize the potential for adverse effects on the vendor and for the maintenance of a healthy working relationship.
 
-## Viruses 
+Right-to-Audit Clause
+A right-to-audit clause is a provision of a contract between a vendor and a client that ensures the client has the permission to audit the vendor directly or through a third party.
 
-</table> In cybersecurity, a virus is a type of malicious software (malware) that, when executed, replicates itself by inserting copies of its code into other computer programs, data files, or the boot sector of the hard drive. This self-replication is the defining characteristic of a computer virus.
+Evidence of Internal Audits
+A client should be able to request evidence of a vendor’s internal audits. Examining internal audits can provide the client with insight into the vendor’s security, the vendor’s risk management strategy and processes, and the internal controls used by the vendor to mitigate risk.
 
-* Self-Replication: This is the core function of a virus. It needs a host program or file to attach itself to. When the infected host is executed, the virus code is also run, and it then seeks out other susceptible files or areas to infect.
+Independent Assessments
+An independent assessment is one that is conducted by an entity not affiliated with either the client or the vendor. Independent assessments can provide a completely objective analysis of the vendor’s security posture and risk management strategies. Independent assessments may also supply verification of the vendor’s certification, such as the ISO 27001.
 
-* Host Dependency: Viruses cannot exist or spread without a host. They need to attach themselves to an executable file (.exe, .com), a document with macros (like .doc or .xls), or the boot sector (the part of the hard drive that starts the operating system).
+Supply Chain Analysis
+The supply chain is how a product gets from a business to a consumer. There can be numerous moving parts in the supply chain that make it difficult to secure. The same analysis techniques, contracts, and vendor agreements can be applied to supply chain risk management. It is also important to understand how a product runs through the supply chain and with which outside vendors the supply chain may be in contact.
 
-* Activation: A virus typically remains dormant until the infected host file is executed or the infected boot sector is accessed. This activation can be triggered by a user opening an infected file, booting the computer from an infected drive, or another system event.
+Vendor Selection
+Vendor selection is the process of choosing an appropriate vendor for the organization’s needs. The vendor selection process should thoroughly examine and assess all aspects of a potential vendor, which is crucial in maintaining organizational security.
 
-* Payload Delivery: Once activated, a virus can deliver a malicious "payload." This payload can range from being relatively harmless (like displaying annoying messages or slowing down the system) to severely damaging (like deleting files, corrupting data, stealing information, or giving an attacker control over the system).
+Due Diligence
+Due diligence is the process of examining a vendor to the best of the organization’s ability to ensure the organization’s standards are met. Ensuring due diligence may include evaluating a vendor’s reputation, financial stability, product and service quality, security protocols, and regulatory compliance, among other factors.
 
-* Spread Mechanism: Viruses spread when the infected host file is transferred to another computer (e.g., via email attachment, USB drive, network share). When the recipient executes the infected file, the virus activates and can then infect other files on their system and potentially spread further.
+Conflict of Interest
+A conflict of interest occurs when there is an overlap in the vendor’s priorities as a result of meeting the needs of more than one client. If a conflict of interest is identified, clauses may be added to vendor contracts to mitigate this risk, or a vendor may be eliminated completely as a business partner.
 
-          In essence, a computer virus is a piece of malicious code that attaches itself to a host program and replicates by modifying other programs to include its own code. This self-replication allows it to spread rapidly from one computer to another, often causing harm through its payload. Understanding the mechanisms of how viruses spread and the types of damage they can inflict is crucial for implementing effective cybersecurity practices.
+Agreement Types
+To reduce the risk of using third-party vendors, there are various contracts and agreements that can be implemented, such as master services agreements, statements of work, service level agreements, or memoranda of understanding.
 
+Service-Level Agreement (SLA)
+An SLA is a contract that outlines the minimum level of service a provider is expected to maintain and what the service provider will do if those minimums are not met.
 
+Memorandum of Agreement (MOA)
+An MOA is a legally binding document between two parties that outlines the roles and responsibilities of the parties and their relationship to one another.
 
-## Ransomware
+Memorandum of Understanding (MOU)
+An MOU is an informal agreement that outlines the relationship between parties. It provides a guideline for the relationship, but it is not legally binding.
 
-</table> Ransomware is software that uses encryption to disable a target’s access to its data until a ransom is paid. The victim organization is rendered partially or totally unable to operate until it pays, but there is no guarantee that payment will result in the necessary decryption key or that the decryption key provided will function properly.
+Master Service Agreement (MSA)
+An MSA is a contract that specifies a baseline of expectations between a vendor and a user over a prolonged period of time. This is the primary contract that may outline the baseline security and privacy requirements of the vendor.
 
-     This year, the city of Baltimore was hit by a type of ransomware named RobbinHood, which halted all city activities, including tax collection, property transfers, and government email for weeks. This attack has cost the city more than $18 million so far, and costs continue to accrue. The same type of malware was used against the city of Atlanta in 2018, resulting in costs of $17 million.
+Work Order (WO)/Statement of Work (SOW)
+When new projects with a vendor are started, a WO or SOW may be created to address specific requirements for that particular project. These will commonly refer back to the MSA that’s already in place.
 
-## Trojans
+Non-Disclosure Agreement (NDA)
+An NDA is a contract that can be used with individuals or third-party providers that specifies how sensitive information is treated during and after employment or use. NDAs may specify what information can be discussed or who the information can be shared with. They are commonly used to protect sensitive information, such as personally identifiable information (PII), trade secrets, or proprietary information.
 
-</table> In cybersecurity, a Trojan horse (often simply called a Trojan) is a type of malicious software (malware) that disguises itself as a legitimate or harmless program to trick users into installing it. Unlike viruses and worms, Trojans do not self-replicate. Instead, they rely on social engineering to deceive users into executing them.
+Business Partners Agreement (BPA)
+Business partners are two or more companies that agree to do business with one another. One way to mitigate risk when working with business partners is to have a clearly defined BPA, which outlines the expectations and responsibilities between two or more entities. The extent of the BPA depends on the partnership and may include defined profit-sharing specifications, the delegation of duties and responsibilities, minimum security requirements, and best practices.
 
-     Imagine you receive an email that appears to be from a reputable software company (e.g., Adobe, Microsoft). The email claims that there's a critical security update for one of their popular programs (like Adobe Reader or Microsoft Office). The email looks very convincing, with the company's logo and professional formatting. It includes a link or an attached file named something like "SecurityUpdate.exe" or "AdobePatch.zip".
+Vendor Monitoring
+Vendor monitoring is an ongoing process that analyzes a vendor’s compliance with business agreements and their performance of contractual obligations. Components of vendor monitoring include clear rules of engagement, performance monitoring, compliance monitoring, and financial monitoring, among others.
 
-* Deceptive Appearance: Trojans often masquerade as useful software, such as antivirus updates, software cracks, games, or seemingly legitimate applications. This disguise is crucial to their success.
+Questionnaires
+Questionnaires can be used during both the vendor assessment and vendor monitoring process to garner insight into a vendor. Effective questionnaires should be tailored to address a specific area or subject, such as security and data policies.
 
-* Non-Self-Replicating: This is a defining characteristic that distinguishes Trojans from viruses and worms. They don't automatically spread to other files or systems once executed.
+Rules of Engagement
+The rules of engagement are a set of agreements between a vendor or third party and the primary business that are established prior to any interaction. These rules detail what systems may be accessed, what actions can be taken, when the possible testing can occur, and any other details regarding the acceptable parameters of the testing, monitoring, or analysis.
 
-* Payload Delivery: Once a Trojan is executed by the unsuspecting user, it can carry out a variety of malicious activities, known as its "payload." These payloads can include:
+Effective Security Compliance
+Effective security compliance requires a multi-faceted approach to ensure all applicable regulations and objectives are met. For the Security+ exam, you must be able to summarize the various elements of effective security compliance.
 
-          Backdoors: Allowing attackers remote access and control over the infected system.
+Compliance Reporting
+Compliance reporting is the process of documenting the methods used to inform interested parties of how an organization meets the applicable standards and regulations. Compliance reporting may be completed for internal or external stakeholders.
 
-          Data Theft: Stealing sensitive information like passwords, financial data, personal files, and browsing history.
+Internal
+Internal compliance reporting is designed to present compliance data to high-level entities, such as upper management or a board of directors, within the organization. Internal compliance reports may include reports on gaps in compliance, the current security posture, and recommendations for improvement, which can be used in the compliance decision-making process.
 
-          Keylogging: Recording keystrokes to capture login credentials and other sensitive text.
+External
+External compliance reporting is often a requirement by governing agencies or external business partners and provides proof of compliance with applicable regulations and laws.
 
-          Spyware: Monitoring user activity, taking screenshots, and recording audio/video.
+Consequences of Non-Compliance
+When an organization suffers from a data breach or is found to be non-compliant, sensitive information could be leaked to unauthorized entities. Consequences of non-compliance range from material consequences, such as financial losses, to more intangible consequences, such as damage to an organization’s reputation.
 
-          Denial-of-Service (DoS) Attacks: Using the infected machine to launch attacks against other systems.
+Fines
+Depending on the regulations and laws that pertain to the entity, when a data breach or non-compliance occurs, the entity may incur monetary penalties for not properly protecting the sensitive information that it has been entrusted with.
 
-          Ransomware Installation: Encrypting files and demanding a ransom for their decryption.
+Sanctions
+A sanction is a formal penalty that can be applied to an organization when non-compliance occurs. Sanctions vary in severity from warnings to criminal charges. Sanctions may include financial penalties, limitations on business functions, or even prison.
 
-          Botnet Recruitment: Turning the infected computer into a "bot" that can be controlled remotely as part of a larger network for malicious purposes.
-          Deleting or Modifying Files: Causing data loss or system instability.
+Reputational Damage
+When a data breach or non-compliance occurs, damage can be done to an organization’s reputation, or how the public perceives the organization. While this may seem like a minor consequence, an organization’s business can be affected by reputational damage, including experiencing a loss in sales or having business partners withdraw support.
 
-          User Interaction Required: Trojans typically require some form of user interaction to be executed, such as clicking on a malicious attachment, downloading and running a fake program, or visiting a compromised website that triggers a drive-by download. In essence, a Trojan horse in cybersecurity is a malicious program that hides its true intentions behind a seemingly benign facade, relying on deception to gain access to a system and carry out harmful actions. Understanding how Trojans operate is crucial for individuals and organizations to implement effective security measures and avoid becoming victims of these deceptive threats.
+Loss of License
+Organizations are often required to obtain licenses to perform certain business functions. When non-compliance occurs, the organization may lose its license to perform those functions for variable durations and may be required to prove compliance prior to reinstatement of the license.
 
-## Worms
+Contractual Impacts
+Contacts between business entities are legally binding. When non-compliance occurs, the stipulations included in the contracts may be affected, possibly leading to termination of the contract.
 
-</table> A worm in cybersecurity is a type of self-replicating malware that spreads across networks by exploiting security vulnerabilities in computer systems. Unlike viruses, which require a host program to attach to, worms are standalone malicious programs that can propagate independently once they have infected a system.
+Compliance Monitoring
+Compliance monitoring is a vital aspect of compliance. Effective compliance monitoring is a continual process and includes internal and external controls that ensure your organization is secure and operating as it should be.
 
-* Self-Replication: This is the defining characteristic of a worm. Once a worm infects a system, it can automatically create copies of itself and spread to other connected computers without requiring any user interaction.
+Due Diligence/Care
+Due diligence refers to a process by which an organization stays abreast of changes in compliance requirements, such as regulation updates or emerging threats to compliance. Due care is ensuring that the policies and processes used to achieve compliance are continually monitored and maintained.
 
-* Network Propagation: Worms are specifically designed to spread across networks, often exploiting network protocols, email systems, file sharing, or software vulnerabilities to reach new hosts.
+Attestation and Acknowledgement
+Acknowledgment occurs when an organization formally states that the organization and entities within the organization are aware of applicable compliance requirements. Attestation occurs when an organization formally states that they not only acknowledge compliance requirements but also meet these requirements.
 
-* Standalone Nature: Unlike viruses that need to attach to an executable file, worms are independent programs that can execute and replicate on their own.
+Internal and External
+Internal compliance monitoring is used to ensure that compliance is met and maintained and may include audits, reviews, and policy checks. External compliance monitoring is conducted by a third party to ensure that compliance is being maintained.
 
-* Exploitation of Vulnerabilities: Worms often leverage security flaws in operating systems, applications, or network services to gain access to systems and spread. 
-  
-* Potential for Significant Damage: Due to their rapid self-replication and network-spreading capabilities, worms can cause widespread damage, including:
+Automation
+Automation can be used internally to assist in ensuring compliance and identifying potential lapses in compliance. Automated systems are capable of monitoring very large and complex organizations more efficiently than a person. For example, compliance software may use automation to continuously scan network logs for activity that falls outside of pre-defined compliance thresholds and send an alert if non-compliant activity is identified.
 
-          Network Congestion: Consuming bandwidth and slowing down or crashing networks due to the sheer volume of traffic generated by replication.
-            
-          System Resource Exhaustion: Overloading infected systems by consuming CPU processing power, memory, and disk space, leading to performance degradation or system crashes.   
+Privacy
+Maintaining the privacy and security of data is one of the primary goals of cybersecurity professionals. You should be familiar with common concepts related to data privacy and security and how these concepts relate to the field of cybersecurity.
 
-          Data Theft or Corruption: Some worms carry malicious payloads that can steal sensitive information, delete files, or corrupt data.
+Legal Implications
+Data, especially personally identifiable information (PII), is subject to numerous legal protections and regulations that require compliance. Data privacy is subject to legal protections at the local, national, and global level, with additional legal regulations placed on organizations handling data in specific fields, such as health care or finance.
 
-          Backdoor Installation: Worms can open backdoors on infected systems, allowing attackers to gain unauthorized remote access.
+Local/Regional
+Local and regional laws and regulations only apply to data within a defined geographical area, such as a specific city or state. For example, California and Utah have each passed state-specific consumer privacy acts that protect consumer data.
 
-          Launching Further Attacks: Infected systems can be used as launching points for other malicious activities, such as denial-of-service (DoS) attacks.
+National
+National laws and regulations pertain to larger geographical areas such as a nation. For example, the US has the Privacy Act of 1974 and HIPAA.
 
-## Spyware
+Global
+While there are no legally binding laws pertaining to data privacy on the global level, there are internationally accepted standards, frameworks, and best practices that are adhered to by much of the industry throughout the world. For example, the International Organization for Standardizations (ISO) is a global federation that facilitates the sharing of knowledge between countries to develop international standards to support innovation and provide solutions to global challenges, including cybersecurity issues.
 
-</table> Spyware collects information about users’ activities without their knowledge or consent. This can include passwords, pins, payment information and unstructured messages.The use of spyware is not limited to the desktop browser: it can also operate in a critical app or on a mobile phone.Even if the data stolen is not critical, the effects of spyware often ripple throughout the organization as performance is degraded and productivity eroded.
+Data Subject
+The data subject is the entity attached to the data being used, such as an employee or a customer. The data subject commonly has rights regarding how their personal data may be used, shared, and retained.
 
-     DarkHotel, which targeted business and government leaders using hotel WIFI, used several types of malware in order to gain access to the systems belonging to specific powerful people. Once that access was gained, the attackers installed keyloggers to capture their targets passwords and other sensitive information.
+Controller vs. Processor
+The data controller is the entity that decides the reason for processing private data and sets the methods through which that data is processed. The data processor is the entity that does the actual processing for the data controller. The data controller retains responsibility for the data, while the processor provides the service through which that data is processed.
 
-## Adware
+Ownership
+Ownership is used to protect data privacy by creating clear boundaries as to who is responsible for what data, with the responsible entity typically being a high-level employee in the related sector. For example, the head of the Human Resources department may be assigned ownership of employee data.
 
-</table> Adware tracks a user’s surfing activity to determine which ads to serve them. Although adware is similar to spyware, it does not install any software on a user’s computer, nor does it capture keystrokes. The danger in adware is the erosion of a user’s privacy — the data captured by adware is collated with data captured, overtly or covertly, about the user’s activity elsewhere on the internet and used to create a profile of that person which includes who their friends are, what they’ve purchased, where they’ve traveled, and more. That information can be shared or sold to advertisers without the user’s consent.
+Data Inventory and Retention
+Data inventory is used to identify what types of sensitive or private information data may contain, with different types of data being subject to different laws and regulations. For example, data may be personally identifiable information, health information, financial information, or legal information. Data retention is how long data at the end of the data lifecycle must be held prior to secure destruction.
 
-    Adware called Fireball infected 250 million computers and devices in 2017, hijacking browsers to change default search engines and track web activity. However, the malware had the potential to become more than a mere nuisance. Three-quarters of it was able to run code remotely and download malicious files.
+Right to Be Forgotten
+The right to be forgotten (RTBF) is a concept used in data protection regulations, especially in GDPR regulations, which states that an individual has the right to request data deletion in certain scenarios, such as when the data is no longer needed, consent is withdrawn, or the data was not obtained legally.
 
-## Bloatware
+Audits and Assessments
+Audits and assessments are used to ensure that the security measures used to protect data privacy are adequate and compliant to standards and regulations. For the Security+ exam, you must be able to explain the different types and purposes of these audits and assessments.
 
-</table> Bloatware refers to pre-installed software on a device (like a computer or smartphone) that the user often finds unnecessary or unwanted. It typically comes bundled by the manufacturer or carrier and consumes system resources, potentially slowing down performance and taking up storage space.
+Attestation
+Attestation is the formal review of an organization used to assure interested parties that the organization complies with required standards and regulations. Attestation may be conducted on an organization’s risk management or data protection policies and procedures.
 
-* Pre-installed: Bloatware is not installed by the user but comes with the device right out of the box.
+Internal
+Internal audits and assessments are conducted within the organization by auditing staff and are typically intended for internal use only. For internal audits and assessments to be unbiased, they should be conducted by entities that have no overlap with the process being assessed.
 
-* Unwanted or Unnecessary: Users often perceive these applications as superfluous, as they may already have preferred alternatives or never intend to use them.
-   
-* Resource Intensive: Bloatware can run in the background, consuming RAM and CPU cycles, which can lead to slower performance and reduced battery life.
-  
-* Storage Consumption: These pre-installed apps occupy valuable storage space on the device, which can be a significant issue, especially on devices with limited internal memory. 
-  
-* Difficult to Remove: In many cases, bloatware is not easily uninstallable through standard methods. Users might need to resort to more advanced techniques or even rooting/jailbreaking their devices to completely remove it.
+Audit Committee
+An audit committee is a selected group of individuals who are responsible for evaluating internal audits and to recommend changes if needed.
 
-          In essence, bloatware is the digital equivalent of clutter on a new device – pre-loaded software that many users would prefer not to have and that can negatively impact the device's performance and available storage. While some pre-installed software might be useful to certain users, the term "bloatware" generally carries a negative connotation due to its often unwanted nature and potential impact on device efficiency.
+Self-Assessments
+A self-assessment attempts to look at the organization from an external point of view, as if it were an evaluation by a third party. Internal audits and assessments can be used for self-assessment to identify lapses or vulnerabilities.
 
-## Keyloggers 
+External
+External audits and assessments are conducted by a third party. External audits are commonly accepted as valid and reliable due to the independent nature of the auditing entity.
 
-</table> A keylogger (also known as a keystroke logger) is a type of surveillance software or hardware device that records the keys pressed on a computer keyboard, typically in a covert manner so that the user is unaware their actions are being monitored.
+Independent Third-Party Audit
+An independent third-party audit, for the purposes of the CompTIA Security+ exam, is one that is requested by an outside entity, such as a customer or regulator, rather than from within the organization.
 
-* Keystroke Recording: The primary function of a keylogger is to capture every keystroke entered by the user. This includes letters, numbers, symbols, function keys, and even system commands.
+Assessment
+An assessment, unlike an audit, is used to evaluate the technical systems of an organization to identify flaws or vulnerabilities using techniques such as penetration testing.
 
-* Covert Operation: Keyloggers are designed to operate stealthily in the background without the user's knowledge or consent. They often don't have a visible interface or generate any suspicious activity that would alert the user.  
+Regulatory
+External audits or assessments are commonly initiated by an organization or by its governing body and may be conducted to ensure an organization is meeting all regulatory requirements.
 
-* Data Storage and Retrieval: The recorded keystrokes are typically stored in a log file on the local machine or transmitted remotely to the attacker, depending on the type of keylogger. Attackers can then access these logs to retrieve sensitive information.   
+Examinations
+An examination is similar to an audit but with a narrower scope or focus. For example, an audit may be conducted on an organization’s entire cybersecurity program, while an examination may be focused only on the implementation of employee cyber-awareness training.
 
-* Software and Hardware Forms: Keyloggers can exist in two main forms:
+Penetration Testing
+Penetration testing can take on many forms and may use techniques and tactics employed by actual attackers. You should be able to explain the differences in penetration testing techniques.
 
-          Software Keyloggers: These are programs installed on the target computer, often without the user's awareness. They can be implemented as standalone applications, parts of other malware (like Trojans), or even as browser extensions.   
+Physical
+Physical penetration testing is designed to attempt to infiltrate the physical environment of a network or organization. For example, a physical penetration tester may attempt to pick locking mechanisms, bypass security access controls, or compromise surveillance equipment.
 
-          Hardware Keyloggers: These are physical devices that are plugged in between the keyboard and the computer. They record keystrokes at the hardware level and store them in their internal memory.   
-  
+Offensive
+An offensive penetration test is one that uses tools or a simulated attack to attempt to infiltrate the logical network of the target and test for vulnerabilities in the system. The entity performing an offensive penetration test is commonly referred to as the red team. There are numerous tools that can be used for offensive penetration testing, including Kali Linux, Metasploit, Meterpreter, and Burp Suite.
 
+Defensive
+A defensive penetration test is designed to test an organization’s response to an attack to identify the effectiveness of the organization’s current technologies, policies, and procedures. The entity performing the defensive penetration test is commonly referred to as the blue team. There are numerous tools that can be used for defensive penetration testing, such as Wireshark, Nessus, and NMap.
 
-## Rootkits
+Integrated
+An integrated penetration test combines offensive and defensive techniques to create a more comprehensive evaluation of the entire organization.
 
-</table> A rootkit is a stealthy type of malicious software (malware) designed to gain unauthorized, persistent access to a computer system while actively concealing its presence and the presence of other malicious software. The term "rootkit" originates from the "root" or administrator account on Unix-like operating systems, as gaining root access provides the highest level of control over the system.
+Known Environment
+A known environment, also known as a white box environment, refers to the amount of information given to the tester (or pen test team) prior to penetration testing. A known environment is one in which the penetration tester is given all of the information about the system that they are going to attack.
 
-* Stealth and Concealment: This is the defining feature of a rootkit. Its primary goal is to remain undetected by standard operating system functions, security software (like antivirus), and the user. It achieves this by manipulating the operating system itself.
+Partially Known Environment
+A partially known environment, also known as a gray box environment, is one in which the penetration tester is given partial information into a system and must use additional resources to procure the other information needed to perform the penetration test.
 
-* Persistence: Rootkits aim to establish a long-term foothold on the compromised system, allowing attackers to maintain control and carry out malicious activities over an extended period. 
-  
-* Privileged Access: Once installed, a rootkit often grants the attacker root-level or administrator privileges, giving them complete control over the infected system.
+Unknown Environment
+An unknown environment, also known as a black box environment, is one in which a penetration tester is given no information prior to engagement. With an unknown or black box test, the penetration tester must perform all reconnaissance on the system using the same techniques and tactics as an actual attacker.
 
-* Hiding Other Malware: Rootkits are often used to hide the presence of other malicious software, such as backdoors, keyloggers, and bots, making it difficult to detect and remove the entire malicious package. 
-  
-* Operating System Manipulation: Rootkits achieve their stealth by modifying core components of the operating system, including:
+Reconnaissance
+Reconnaissance is the process of collecting information about a target. It can be either passive or active.
 
-          System Calls: Intercepting and altering system calls to filter out evidence of their presence or the presence of other malware. 
-            
-          Kernel Objects: Hiding processes, files, registry entries, and network connections associated with the rootkit and other malicious software. 
-            
-          Device Drivers: Replacing legitimate drivers with malicious ones to gain control at a low level and intercept system operations.
+Passive
+Passive reconnaissance refers to the process of collecting information from sources outside of the target system, such as social media or news reports.
 
-          Bootloaders: Some rootkits infect the bootloader to gain control of the system before the operating system even starts.   
+Active
+Active reconnaissance refers to the process of collecting information by interacting with the target system directly, such as by using packet capture programs to garner information.
 
+Security Awareness Practices
+The most frequent cause of data breaches is the human factor. To mitigate this threat, a comprehensive security awareness program can be implemented to provide continuous security training to employees. Given a scenario, you must be able to implement the appropriate security awareness practice.
 
-## Logic Bombs
+Phishing
+A phishing simulation is a training tool that sends fake phishing messages to employees to elicit a response and gauge the level of phishing awareness and recognition by employees. A simulation may link to a training video if the employee falls for the phishing attempt, or it could provide a reward if the phishing simulation is flagged and reported for review.
 
-</table> A logic bomb in cybersecurity is a piece of malicious code intentionally inserted into a software system. This code lies dormant until a specific predefined condition or set of conditions is met. Once triggered, the logic bomb executes its malicious payload, which can range from displaying an unwanted message to deleting critical data, disrupting system operations, or granting unauthorized access.
+Campaigns
+A phishing campaign is a training method that provides awareness of phishing types and techniques through a pre-established program. Phishing campaigns may include funny posters depicting phishing techniques or offer rewards for flagging potential phishing emails.
 
-* Dormant State: Unlike viruses or worms that often execute immediately upon infection, a logic bomb remains inactive within the system until its trigger conditions are satisfied. This stealthy nature can make them difficult to detect.  
+Recognizing a Phishing Attempt
+Training employees to identify potential phishing messages is a vital component of phishing campaigns. Employees are taught to recognize suspicious activity commonly used in phishing attacks. This might include a false message that demands urgent action, such as alerting a target to the presence of malware and saying they need to address it immediately using a provided (fake) link. Alternatively, the message may make a request for sensitive information, such as a bank notification that states the target needs to verify their personal information to keep the account active.
 
-* Trigger Conditions: These are the specific criteria that must be met for the logic bomb to activate. These conditions can be diverse and include:
+Responding to Reported Suspicious Messages
+Training employees to recognize phishing attempts is only one component of effective phishing training and awareness. Responding properly to the phishing attempt is just as important as recognition. The best practice can involve training employees to forward the suspicious message to a predetermined location for further analysis.
 
-          A specific date or time.
+Anomalous Behavior Recognition
+Anomalous behavior is any behavior that is out of the norm. An effective security awareness training program teaches employees to identify anomalous behavior in their coworkers and environment.
 
-          A particular user logging into the system.
+Risky
+Risky anomalous behavior is behavior that may pose a potential threat to an organization. For example, if an employee has been promoted to a position that requires memorization of access passcodes, the employee may write the passcodes on a sticky note until they’re memorized, which would be risky anomalous behavior.
 
-          A certain number of times a program is executed.
+Unexpected
+Unexpected anomalous behavior is behavior that is unusual or out of the ordinary. For example, if an employee works a Monday to Friday shift every week, the employee being on the premises on a Saturday would be unexpected anomalous behavior.
 
-          The deletion or modification of a specific file.
+Unintentional
+Unintentional anomalous behavior is an action that may create an unintended consequence of which the individual is unaware. For example, an employee placing a call on speakerphone if their hands are occupied could unintentionally result in an unauthorized entity overhearing the conversation.
 
-          A particular sequence of user actions.
+User Guidance and Training
+To address the vulnerability of the human factor, user training policies are implemented to aid in keeping employees up to date with their security awareness and the risks associated with their environment and roles. User guidance and training methods vary and are designed to elicit the highest retention rates based on the desired outcome.
 
-          A specific network event.
+Policy/Handbooks
+Policies and handbooks provide a written resource that can be used to find security procedures and protocols.
 
-* Malicious Payload: Once triggered, the logic bomb executes its intended harmful action. The severity of the payload can vary greatly, including:
+Situational Awareness
+Situational awareness training is the process of by which employees are informed of current threats and the indicators that can be used to recognize them.
 
-          Displaying nuisance messages or pop-ups.
+Insider Threat
+Employees should be trained to identify anomalous behavior from an insider threat, which is one that comes from within the organization, including employees, contractors, and others who have continual access to the organization.
 
-          Corrupting or deleting files and data.   
+Password Management
+Training should be used to inform employees of the organization’s password creation requirements, as well as techniques to protect and manage the security of passwords.
 
-          Disrupting network services.
+Removable Media and Cables
+Training should include education on removable media and cables, including teaching employees that they should never connect unauthorized external devices to networking devices.
 
-          Crashing the operating system.
+Social Engineering
+Continual social engineering training should include all aspects of social engineering, including physical techniques, in-person techniques, and technical social engineering attacks.
 
-          Granting unauthorized access to the system.
+Operational Security
+Operational security training includes educating employees on how to use and protect data during normal working functions, such as understanding access controls and their importance and not discussing sensitive information around unauthorized entities.
 
-          Stealing sensitive information.
+Hybrid/Remote Work Environments
+Securing a network in a hybrid or remote work environment includes training employees to connect to a network using a secure method, such as via a virtual private network (VPN), monitoring physical access to business devices, and providing awareness as to hybrid and remote work policies and procedures.
 
-          Internal Threat Potential: Logic bombs are often planted by individuals with legitimate access to the system, such as disgruntled employees or insiders. This makes them particularly challenging to prevent and detect, as the malicious code can be embedded within seemingly legitimate parts of the software.  
+Reporting and Monitoring
+Reporting on and monitoring the organization’s security awareness program is vital in ensuring its effectiveness. Training participation, employee feedback, and knowledge assessments can provide insights to stakeholders during the effectiveness evaluations.
 
-          Delayed Impact: The delayed activation of a logic bomb can make it difficult to trace the malicious activity back to its source. The system might function normally for an extended period before the bomb suddenly detonates. 
+Initial
+An initial assessment is created prior to beginning security awareness training to establish a baseline that can be used as a point of comparison for later evaluations.
 
- # Social Engineering Tactics
+Recurring
+Recurring assessments are used to identify the effectiveness of a security awareness training program as well as to identify any areas that may require reevaluation.
 
- </table> Social engineering in cybersecurity refers to the psychological manipulation of people to perform actions or divulge confidential information. Instead of exploiting technical vulnerabilities in systems, social engineers exploit human behavior and emotions to gain access to data, systems, or locations.
+Development
+When developing a security awareness program, multiple techniques and methods should be used to create a program that is diverse, digestible, informative, and stimulating to elicit the best retention from participants. If the training is static and the same every time, employees may disregard the training and view the threats covered in the training as insignificant. Also, different employees retain information better through different learning techniques, which is another reason why diversification is so important.
 
-Think of it as "hacking the human" rather than hacking the computer. Attackers use deception and persuasion tactics to trick individuals into making security mistakes.
-
-* Human Element Focus: Social engineering targets the inherent trust, helpfulness, fear, or urgency that individuals might feel.
-
-* Manipulation and Deception: Attackers create scenarios or impersonate individuals or organizations to convince their targets to take specific actions.
-
-* Goal-Oriented: The ultimate goal is usually to obtain sensitive information (like passwords, financial details, or personal data), gain unauthorized access to systems or physical locations, or persuade victims to install malware or transfer funds.
-
-* Varied Techniques: Social engineering attacks can take many forms, occurring online, over the phone, or even in person.
-
-          In essence, social engineering is about convincing people to do something they shouldn't, by exploiting their natural tendencies and psychological responses. It's a significant threat because humans are often the weakest link in the security chain.
- ## Phishing 
-
-</table> Phishing is a type of social engineering attack where malicious actors attempt to deceive individuals into revealing sensitive information, such as usernames, passwords, credit card details, or other personal data, by disguising themselves as trustworthy entities. Think of it as "fishing" for sensitive information by casting out deceptive "bait."
-
-* Deception is Central: Phishing relies heavily on trickery and manipulation. Attackers craft messages (typically emails, but also texts, phone calls, or even social media messages) that appear to be from legitimate organizations or people the target trusts.
-   
-* Impersonation of Trusted Entities: Attackers commonly impersonate well-known companies (banks, social media platforms, online retailers), government agencies, or even colleagues and friends. They often use logos, branding, and language that closely resemble the real entity. 
-  
-* Urgency and Fear Tactics: Phishing attempts often create a sense of urgency or fear to pressure victims into acting quickly without thinking critically. For example, a message might claim that an account has been compromised and requires immediate action to secure it, or that a payment is overdue and will result in service suspension.   
-
-* Requests for Sensitive Information: The ultimate goal of a phishing attack is to get the victim to divulge confidential data. This can be done through various means:
-
-          Malicious Links: The message often contains links that lead to fake websites designed to look like the legitimate organization's login or information entry pages. Any data entered on these fake sites is then stolen by the attackers.   
-
-          Malicious Attachments: Attachments may contain malware that, once opened, can steal information, install backdoors, or perform other malicious actions.   
-
-          Direct Requests: The message might directly ask for sensitive information, such as a password reset or account verification, often under a false pretense. 
-
-* Wide Range of Attack Vectors: While email is the most common method, phishing attacks can also occur via:
-
-          Smishing (SMS Phishing): Using text messages.
-             
-          Vishing (Voice Phishing): Using phone calls. 
-            
-          Social Media Phishing: Using direct messages or fake posts.   
-
-          Spear Phishing: Highly targeted attacks aimed at specific individuals or organizations, often using personalized information to increase credibility.  
-
-          Whaling: A type of spear phishing that targets high-profile individuals like CEOs or senior executives.
-
-## Password Attacks 
-
-</table> Password attacks are methods used by malicious actors to attempt to uncover or bypass passwords, ultimately gaining unauthorized access to systems, accounts, or data. These attacks exploit weaknesses in password security practices, human behavior, and sometimes vulnerabilities in the systems themselves.   
-
-Here's a breakdown of common password attack categories and techniques:
-1.  Brute-Force Attacks:
-
-          These attacks involve systematically trying every possible combination of characters (letters, numbers, symbols) until the correct password is found. Highly time-consuming and often ineffective against strong, long passwords and systems with account lockout policies.   
-
-     Variations:
-
-          Full Brute-Force: Tries all possible character combinations of a certain length.
-
-          Masked Brute-Force: The attacker has some knowledge about the password structure (e.g., it starts with a capital letter and ends with a number) and uses this information to narrow down the search space.
-
-2. Dictionary Attacks:
-
-          These attacks use a list of common words, names, phrases, and previously compromised passwords (a "dictionary") to try and guess the password.  Effective against weak passwords that are based on common words or easily guessable information.   
-
-3. Hybrid Attacks:
-
-          These attacks combine dictionary attacks with brute-force techniques. They might take words from a dictionary and then add variations like numbers, symbols, or common misspellings. More effective than simple dictionary attacks against slightly more complex passwords.
-
-4. Rule-Based Attacks:
-
-          Attackers use predefined rules to modify words from a dictionary. These rules might include capitalization, adding common suffixes or prefixes (like "123" or "!", "admin"), or making common substitutions (like "a" for "@" or "i" for "1"). Can be very effective if users follow predictable patterns when creating passwords based on common words.   
-
-5. Social Engineering Attacks:
-
-          These attacks manipulate individuals into revealing their passwords or other sensitive information. They don't directly involve technical cracking but rather exploit human psychology. Phishing emails, pretexting (creating a believable scenario), baiting (offering something tempting in exchange for information), and tailgating (physically following someone into a secure area). Can be highly effective against even technically savvy users if the social engineering tactics are well-crafted.
-
-6. Credential Stuffing:
-
-          Attackers use lists of usernames and passwords that were compromised in previous data breaches on other websites or services to try and log into different accounts. This relies on the fact that many people reuse the same passwords across multiple platforms. Highly effective when users have poor password hygiene and reuse passwords.  
-
-7. Keylogging:
-
-          Malware (like a Trojan horse) is installed on a victim's computer to record their keystrokes, allowing the attacker to capture passwords as they are typed. Can capture even strong and unique passwords if the malware is successfully installed.
-
-8. Shoulder Surfing:
-
-          A low-tech attack where an attacker physically observes someone entering their password. Effective in public places or situations where privacy screens are not used.
-
-9. Rainbow Table Attacks:
-
-          These attacks use pre-computed tables of password hashes to speed up the process of cracking hashed passwords. Instead of calculating hashes on the fly, the attacker can look up the hash in the table to find the corresponding password. Effective against older or weaker hashing algorithms but less so against modern, salted hashing techniques.
-
-# Security Assessment
-
-## Vulnerability 
-
-</table> A cybersecurity vulnerability is any weakness within an organization’s information systems, internal controls, or system processes that can be exploited by cybercriminals. Through points of vulnerability, cyber adversaries are able to gain access to your system and collect data. Vulnerabilities differ from cyber threats in that they are not introduced on a system, they are there from the beginning. Very rarely are cyber vulnerabilities created as a result of actions taken by cybercriminals, instead, they are usually caused by operating system flaws or network misconfigurations.
-
-### Vulnerability Management 
-
-</table> Vulnerability management is the process of identifying, classifying, mitigating, and remediating system vulnerabilities. Below we will outline three key steps in vulnerability management that you can follow to facilitate a vulnerability management program at your organization:
-
-1. Identify vulnerabilities
-
-          Vulnerability identification is the process of locating and noting exploitable gaps in your network operations. This is typically done through the use of vulnerability scanners which periodically assess network systems for misconfigurations, incorrect file system structures, and more. The results of the scans are then cross-referenced with known security intelligence databases. In order to get accurate results, it is critical that the scanner is properly configured and up-to-date. It is recommended that you administer a test-run during off-hours so that you can evaluate the accuracy of results and make adjustments where necessary.
-
-2. Evaluate vulnerabilities
-
-          After identifying vulnerabilities, the next step is to evaluate the risk they pose to your business using a cybersecurity vulnerability assessment. Vulnerability assessments allow you to assign risk levels to identified threats so that you can prioritize remediation efforts. Effective assessments also enhance compliance efforts as they ensure that vulnerabilities are addressed before they can be exploited.
-
-3. Address vulnerabilities
-
-          Once a vulnerability’s risk level has been determined, you then need to treat the vulnerability. The different ways you can treat a vulnerability include:
-
-          Remediation: Vulnerability remediation involves completely fixing or patching a vulnerability. This is the preferred treatment of vulnerabilities as it eliminates risk.
-
-          Mitigation: Mitigation involves taking steps to lessen the likelihood of a vulnerability being exploited. Vulnerability mitigation is typically performed as a means to buy time until a proper patch is available.
-
-          Acceptance: Taking no action to address a vulnerability is justified when an organization deems it to have a low risk. This is also justifiable when the cost of addressing the vulnerability is greater than the cost incurred if it were to be exploited.
-
-### Common Vulnerabilities
-
-</table> When building a vulnerability management program, there are several key cybersecurity vulnerabilities that you must be aware of. Below are six of the most common types of cybersecurity vulnerabilities:
-
-* System Misconfigurations 
-
-</table> System misconfigurations occur as a result of network assets having vulnerable settings or disparate security controls. A common tactic cybercriminals use is to probe networks for system misconfigurations and gaps that can be exploited. As more organizations adopt digital solutions, the likelihood of network misconfigurations grows, so it is important to work with experienced security professionals when implementing new technologies.
-
-* Unpatched Software
-
-</table> Unpatched vulnerabilities can be exploited by cybercriminals to carry out attacks and steal valuable data. Similar to system misconfigurations, cyber adversaries will probe networks looking for unpatched systems they can compromise. To limit this risk, It is important to establish a patch management schedule so that all new system patches are implemented as soon as they are released.
-
-* Authorization Credentials
-
-</table> A common tactic attackers employ is to brute force their way into a network by guessing employee credentials. It is important to educate employees on cybersecurity best practices so that their login information cannot be easily exploited to gain access to a network.
-
-* Malicious Insider Threat
-
-</table> A malicious insider threat refers to a significant cybersecurity risk originating from individuals within an organization who intentionally misuse their authorized access to harm the organization. These individuals, who could be current or former employees, contractors, or business partners, leverage their legitimate credentials and knowledge of internal systems to conduct harmful activities. The key differentiator of a malicious insider threat is the deliberate intent to cause damage, unlike unintentional insider threats that stem from negligence or human error.   
-
-          Intentional Harm: The actions are not accidental; they are carried out with a specific goal to negatively impact the organization.
-
-          Abuse of Access: Malicious insiders exploit the legitimate access they have been granted to systems, data, or facilities. 
-            
-* Variety of Motives: The reasons behind malicious insider threats can vary widely, including:
-
-          Financial Gain: Stealing and selling sensitive data like customer information, trade secrets, or intellectual property on the dark web, or engaging in fraud and embezzlement.  
-
-          Revenge or Disgruntlement: Acting out of anger or resentment towards the organization due to perceived unfair treatment, missed promotions, or termination.  
-
-          Competitive Advantage or Espionage: Leaking proprietary information or strategic plans to benefit competitors or even foreign governments.
-
-          Personal Use: Accessing and misusing data for personal reasons, such as identity theft or spying on colleagues.  
-
-          Ideological or Political Beliefs: Leaking information to expose perceived wrongdoing or to aid external groups aligned with their cause. 
-  
-          Sabotage: Intentionally damaging or disrupting systems, deleting critical data, or hindering operations purely to cause harm.  
-
-* Diverse Tactics: Malicious insiders can employ various methods to achieve their goals, including:
-
-     1. Data Theft: Copying, downloading, or transferring sensitive information to unauthorized locations, such as personal devices, email accounts, or cloud storage.   
-
-     2.  Data Manipulation or Deletion: Altering or removing critical data, which can disrupt operations, cause financial losses, or breach compliance regulations.
-          
-     3.  System Sabotage: Intentionally damaging or disrupting IT systems, networks, or infrastructure.  
-
-          Unauthorized Access: Using their legitimate credentials to access information or systems beyond their authorized scope, sometimes to conduct espionage or gather information for future attacks.   
-
-          Introducing Malware: Intentionally introducing viruses, worms, or other malicious software into the organization's systems.   
-
-          Providing Insider Knowledge to External Attackers: Collaborating with external cybercriminals by providing them with information about the organization's vulnerabilities or helping them gain access.   
-
-* Difficulty in Detection: Malicious insider threats can be particularly challenging to detect because the individuals often use their legitimate access, making their actions appear as normal activity. They may also have knowledge of the organization's security measures and know how to circumvent them.   
-
-Examples of Malicious Insider Threats:
-
-     1. A departing employee steals a customer list to give to their new competitor.
-
-     2. A disgruntled employee deletes critical financial records before being terminated.  
-           
-     3. An employee with high-level access modifies financial data for personal enrichment.
-
-     4. An employee leaks sensitive internal documents to a journalist.   
-
-     5. A system administrator installs a backdoor in the network to allow unauthorized external access.   
-
-## Penetration Testing
-
-</table> Penetration testing, often called a "pen test" or ethical hacking, is like a simulated cyberattack against your computer systems, networks, web applications, or other digital assets. Think of it as hiring a team of trustworthy "hackers" to try and break into your defenses, but with your explicit permission and within a controlled environment. The goal isn't to cause harm, but rather to identify vulnerabilities that real malicious actors could exploit. These vulnerabilities might be weaknesses in your software, misconfigurations in your systems, or even human errors in your security practices.
-
-Here's a breakdown of what that looks like:
-
-* Planning and Reconnaissance: Just like a real attacker, pen testers first gather information about the target. This might involve looking at publicly available data, scanning networks, and identifying potential entry points. 
-  
-* Scanning: They then use various tools and techniques to probe the target for open ports, services, and potential weaknesses. This is like knocking on different doors and windows to see which ones are unlocked.   
-
-* Exploitation: If vulnerabilities are found, the pen testers will attempt to exploit them to gain unauthorized access. This could involve trying default passwords, exploiting software flaws, or using social engineering tactics.   
-
-* Post-Exploitation: Once inside, they might try to see how far they can go, what sensitive information they can access, and what kind of damage they could potentially cause. This helps understand the real-world impact of the identified vulnerabilities.
-
-* Reporting: Finally, the pen testers document their findings in a detailed report. This report outlines the vulnerabilities discovered, the methods used to exploit them, the potential risks, and provides recommendations for remediation. 
-
-</table> Essentially, penetration testing provides a realistic assessment of your security posture. It helps you understand your weaknesses before the bad guys do, allowing you to strengthen your defenses and protect your valuable data and systems. It's a proactive approach to security, rather than waiting for an actual attack to reveal your vulnerabilities.
-
-## Recoonaissance
-
-</table> Reconnaissance, often called "recon" or "footprinting," is the initial phase of a penetration test. It involves systematically gathering information about the target system, network, or organization before attempting to exploit any vulnerabilities. Think of it as the intelligence-gathering stage in a simulated cyberattack.
-
-The goal of reconnaissance is to build a comprehensive understanding of the target's:
-
-* Infrastructure: Network topology, domains, subdomains, IP addresses, operating systems, and connected devices.
-
-* Applications and Services: Web servers, email servers, databases, and other running applications, along with their versions.
-
-* Security Posture: Firewalls, intrusion detection/prevention systems, and other security controls in place.
-
-* People and Processes: Employee information (email addresses, social media profiles), organizational structure, and business processes that might reveal potential weaknesses.
-
-Reconnaissance helps penetration testers to:
-
-* Identify potential attack vectors: By understanding the target's systems and services, testers can pinpoint areas that might be vulnerable.
-
-* Tailor their attacks: Information gathered during recon allows for more targeted and effective exploitation attempts.
-
-* Avoid detection: A thorough understanding of security controls helps testers craft attacks that are less likely to trigger alarms.
-
-* Understand the organization's overall risk profile: Reconnaissance can reveal publicly exposed sensitive information or misconfigurations.
-
-Reconnaissance is broadly divided into two main types:
-
-* Passive Reconnaissance: This involves gathering information without directly interacting with the target. It relies on publicly available sources such as:
-
-          Open Source Intelligence (OSINT): Search engines, social media, company websites, public records, news articles, and job postings.
-
-          DNS and WHOIS lookups: Obtaining information about domain registration, IP addresses, and name servers.
-
-          Network traffic analysis (indirect): Observing publicly accessible network data.
-
-
-* Active Reconnaissance: This involves direct interaction with the target systems to gather information. It's more intrusive and carries a higher risk of detection. Techniques include:
-          Port scanning: Identifying open ports and services running on target systems using tools like Nmap.
-
-          Ping sweeps: Determining active hosts within a network range.
-
-          Banner grabbing: Extracting information about the software and versions running on open ports.
-
-          Network mapping: Discovering the structure and devices within a network using tools like traceroute.
-
-          Vulnerability scanning: Using automated tools to identify known security weaknesses.
-
-## Injection Vulnerabilities
-
-</table> SQL injection (SQLi) is a type of cyberattack that exploits vulnerabilities in an application's database layer. It occurs when an attacker inserts malicious SQL code into an entry field, such as a login form or a search bar, which is then executed by the backend database. This can allow the attacker to:
-
-         1. Bypass security measures: Gain unauthorized access to sensitive data or administrative functions.
-
-         2. Retrieve sensitive information: Access user credentials, personal details, financial data, and other confidential information.
-
-         3. Modify or delete data: Alter or remove records in the database, potentially causing data loss or corruption.
-
-         4. Execute arbitrary commands: In some cases, attackers can even execute operating system commands on the database server.
-
-         SQL injection vulnerabilities typically arise when user-supplied input is not properly sanitized or validated before being incorporated into SQL queries. For example, consider a simple SQL query that retrieves user information based on a username:
-
-SQL
-
-          SELECT * FROM users WHERE username = '$username';
-
-If the application directly substitutes user input into this query without proper handling, an attacker could enter a malicious string like:
-
-          ' OR '1'='1
-This would modify the query to:
-
-          SQL
-
-          SELECT * FROM users WHERE username = '' OR '1'='1';
-
-Since the condition '1'='1' is always true, the query would return all rows from the users table, effectively bypassing the username check.
-
-Types of SQL Injection:
-
-SQL injection attacks can be broadly categorized into:
-
-          In-band SQLi: The attacker uses the same communication channel to both inject the malicious code and retrieve the results. This is the most common type and includes:
-
-          Error-based SQLi: Exploiting database error messages to gather information about the database structure.
-
-          Union-based SQLi: Using the UNION SQL operator to combine the results of malicious queries with legitimate ones.
-
-          Inferential (Blind) SQLi: The attacker cannot see the direct results of their injected code but infers information about the database structure and data by observing the application's behavior and responses. This includes:
-
-          Boolean-based SQLi: Crafting queries that return different results (true or false) based on a condition, allowing the attacker to deduce information bit by bit.
-
-          Time-based SQLi: Injecting queries that cause the database to wait for a specific time, allowing the attacker to infer information based on the response time.
-
-          Out-of-band SQLi: The attacker uses a different channel to retrieve the results of their attack, such as email or a separate network connection. This is less common but can be used when in-band methods are not feasible.
-
-### Prevention
-
-</table> Preventing SQL injection is crucial for application security. Common mitigation techniques include:
-
-* Using parameterized queries (prepared statements): This is the most effective way to prevent SQL injection. Parameterized queries separate SQL code from user-supplied data, treating the data as parameters rather than executable code.
-
-* Input validation and sanitization: Carefully validating and sanitizing all user input to ensure it conforms to expected formats and does not contain malicious characters or SQL keywords. However, this method alone is often insufficient and should be used in conjunction with parameterized queries.
-
-* Principle of least privilege: Granting database users only the necessary permissions to perform their tasks, limiting the potential damage an attacker can cause even if they successfully inject SQL code.
-
-* Web application firewalls (WAFs): Implementing a WAF that can detect and block malicious SQL injection attempts.
-
-* Regular security testing: Conducting regular vulnerability assessments and penetration testing to identify and address potential SQL injection vulnerabilities in applications.
-
-* Keeping software up to date: Ensuring that all software, including the database management system and web application frameworks, is up to date with the latest security patches.
-
-* Disabling verbose error messages: Preventing the application from displaying detailed database error messages to users, as these can provide valuable information to attackers.
-
-* By understanding how SQL injection works and implementing robust security measures, developers can significantly reduce the risk of this prevalent and potentially damaging attack.
-
-## Endpoint Security
-
-</table> Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats. Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices. 
-
-Endpoint security, in a nutshell, is like having personal bodyguards for all the devices that connect to your network. Think of laptops, desktops, smartphones, tablets, and even servers – these are your "endpoints." Endpoint security solutions are designed to protect each of these individual entry points from cyber threats.   
-
-Instead of just focusing on the network perimeter like a traditional firewall, endpoint security takes a more granular approach. It recognizes that threats can originate from within the network itself, through compromised devices.   
-
-Here's a breakdown of what endpoint security typically entails:
-
-* Protection: It aims to prevent malicious activity from harming the endpoint. This includes things like viruses, malware, ransomware, phishing attacks, and unauthorized access.
-   
-* Detection: If a threat does manage to bypass initial defenses, endpoint security solutions are designed to quickly identify and flag suspicious behavior.  
-
-* Response: Once a threat is detected, these solutions often have capabilities to automatically isolate the infected device, remove the threat, and help restore the system to a healthy state.   
-
-* Centralized Management: Often, organizations use a central management console to oversee the security posture of all their endpoints, making it easier to deploy policies, monitor activity, and respond to incidents.   
-
-</table> Think of it like this: a castle (your network) has walls and gates (perimeter security). But each person inside the castle (your endpoints) also has their own personal guard (endpoint security) to watch out for individual threats, even if they somehow get past the outer defenses. In today's world, where people work remotely and use a variety of devices, endpoint security has become absolutely crucial for protecting sensitive data and maintaining overall cybersecurity.
-
-## Network Security
-
-</table> Network security is like having a strong and sophisticated security system for your digital world. Imagine your computer network as a house filled with valuable information and resources. Network security encompasses all the measures you take to protect that house and its contents from unauthorized access, use, disclosure, disruption, modification, or destruction.
-
-Think of it as a layered defense strategy. You might have:
-
-* Firewalls: Like sturdy walls and gates around your property, these control incoming and outgoing network traffic, blocking suspicious connections. 
-
-* Antivirus and Anti-malware Software: These are like specialized cleaning crews that identify and eliminate harmful viruses and other malicious software that might try to sneak in.
-
-* Access Control: This is like having a key and lock system, ensuring that only authorized individuals can access specific parts of your network and resources. This often involves usernames, passwords, and multi-factor authentication.
-
-* Virtual Private Networks (VPNs): Imagine a secure tunnel that encrypts your communication when you're connecting to your network remotely, ensuring privacy and security even over public internet connections.   
-
-* Data Loss Prevention (DLP): These measures are like safeguards to prevent sensitive information from leaving your network without authorization.  
-
-* Security Awareness Training: Educating users about potential threats and safe online practices is like teaching everyone in the "house" how to lock doors and identify suspicious individuals.
-
-* Intrusion Detection and Prevention Systems (IDPS): These act like vigilant security guards, constantly monitoring for any signs of break-ins or malicious activity and taking action to stop them.   
-
-## Risk Management 
-
-</table> Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events. Risk management is the systematic process of identifying, assessing, and controlling potential threats that could negatively impact an organization's people, finances, operations, reputation, or strategic goals. It's about understanding what could go wrong and taking proactive steps to minimize the likelihood and impact of those events.
-
-Here's a breakdown of the key aspects:
-
-* Identification: This involves recognizing potential risks, both internal and external. These can range from financial uncertainties and legal liabilities to technological failures, natural disasters, and strategic errors.
-
-* Assessment: Once risks are identified, they are analyzed to determine their potential impact (severity of the consequences) and likelihood (probability of occurrence). This step helps prioritize which risks require the most attention.
-
-* Control (or Treatment): This involves developing and implementing strategies to manage the identified risks. Common risk treatment options include:
-
-          Avoidance: Completely eliminating the activity or situation that causes the risk.
-
-          Mitigation (Reduction): Taking actions to reduce the likelihood or impact of the risk.
-
-          Transfer: Shifting the risk to a third party, often through insurance or outsourcing.
-
-          Acceptance (Retention): Acknowledging the risk and deciding to bear the potential consequences.
-
-          Sharing: Distributing the risk among multiple parties.
-
-* Monitoring and Review: Risk management is an ongoing process. It requires continuous monitoring of identified risks and the effectiveness of implemented strategies. New risks can emerge, and the significance of existing risks can change over time.
-
-</table> In essence, risk management provides a framework for making informed decisions in the face of uncertainty, ultimately aiming to protect an organization and help it achieve its objectives. It's not about eliminating all risks, as some level of risk-taking is often necessary for growth and innovation, but rather about understanding and managing those risks effectively.
-
-## Wrap Up
-
-To effectively prepare for the CompTIA Security+ exam (SY0-701), which was launched on November 7, 2023, and will retire approximately three years from its release date, it's crucial to focus on the official exam objectives. These objectives are divided into five key domains:
-
-### General Security Concepts (12% of the Exam):
-
-* Security Controls: Understand and differentiate between various types of security controls, including technical (e.g., firewalls, antivirus), administrative (e.g., policies, procedures), physical (e.g., locks, surveillance), preventative, detective, deterrent, corrective, compensating, and directive controls.
-
-* Fundamental Security Concepts: Summarize core cybersecurity principles like the CIA triad (Confidentiality, Integrity, Availability), AAA framework (Authentication, Authorization, Accounting), and the Zero Trust model. Familiarize yourself with concepts such as non-repudiation, gap analysis, and physical security measures (e.g., bollards, access control vestibules).
-
-* Cryptography Basics: Explain the importance of using appropriate cryptographic solutions, including different levels of encryption (full-disk, file, etc.), transport/communication encryption, symmetric and asymmetric algorithms, key exchange methods, hashing, salting, digital signatures, and Public Key Infrastructure (PKI) concepts (public/private keys, key escrow, certificate authorities, CRLs, OCSP).
-
-* Deception and Disruption Technologies: Understand technologies like honeypots and their role in security.
-
-### Threats, Vulnerabilities, and Mitigations (22% of the Exam):
-
-* Threat Actors and Motivations: Compare and contrast common threat actors (e.g., script kiddies, hacktivists, state-sponsored actors, insider threats) and their motivations.
-
-* Threat Vectors and Attack Surfaces: Explain common threat vectors (e.g., email, web, removable devices, social media) and attack surfaces, including the significance of vulnerable software, unsupported systems, unsecure networks, open service ports, and default credentials.
-
-* Social Engineering: Understand various social engineering techniques such as phishing, vishing, smishing, impersonation, business email compromise, pretexting, and watering hole attacks.
-
-* Types of Vulnerabilities: Explain different types of vulnerabilities related to applications (e.g., memory injection, buffer overflow, race conditions), operating systems, web-based attacks (e.g., SQL injection, cross-site scripting), hardware (e.g., firmware, end-of-life), virtualization, cloud-specific issues, and supply chain weaknesses.
-
-* Malware: Identify and understand various types of malware, including ransomware, trojans, worms, spyware, viruses, keyloggers, and rootkits.
-
-* Network Attacks: Explain different network attacks such as DDoS, DNS attacks, wireless attacks (e.g., evil twin, rogue access points), on-path attacks, and credential replay.
-
-* Application Attacks: Understand common application attacks like injection, buffer overflow, privilege escalation, and cross-site scripting.
-
-* Cryptography Attacks: Be aware of cryptographic attacks like downgrade and collision attacks.
-
-* Password Attacks: Understand password attacks such as spraying and brute force.
-
-* Indicators of Malicious Activity: Analyze indicators of compromise (e.g., account lockouts, unusual network traffic, resource inaccessibility).
-
-* Mitigation Techniques: Explain and compare various mitigation techniques used to secure the enterprise, including segmentation, access control lists, application allow lists, isolation, patching, encryption, monitoring, least privilege, configuration enforcement, decommissioning, and hardening techniques (e.g., host-based firewalls, HIPS, disabling unnecessary ports/protocols).
-
-### Security Architecture (18% of the Exam):
-
-* Security Implications of Architecture Models: Compare and contrast the security implications of different architecture models (e.g., on-premises, cloud, hybrid).
-
-* Security Principles for Enterprise Infrastructure: Apply security principles to secure enterprise infrastructure, including concepts like defense in depth.
-
-* Data Protection Concepts and Strategies: Compare and contrast concepts and strategies to protect data, such as data loss prevention (DLP), data masking, tokenization, and encryption.
-
-* Resilience and Recovery: Explain the importance of resilience and recovery in security architecture, including disaster recovery and business continuity planning.
-
-* Cloud and Virtualization Security: Summarize secure application development, deployment, cloud, and virtualization concepts, including understanding potential vulnerabilities like VM escape and resource reuse.
-
-* Embedded and Specialized Systems: Explain the security implications of embedded and specialized systems (e.g., IoT, ICS/SCADA).
-
-* Physical Security: Explain the importance of physical security controls in the overall security architecture.
-
-### Security Operations (28% of the Exam):
-
-* Security Techniques for Computing Resources: Apply common security techniques to computing resources, including operating system hardening, application security best practices, and secure configuration.
-
-* Hardware, Software, and Data Asset Management: Explain the security implications of proper hardware, software, and data asset management throughout their lifecycle.
-
-* Vulnerability Management: Explain various activities associated with vulnerability management, including scanning, assessment, and remediation.
-
-* Security Alerting and Monitoring: Explain security alerting and monitoring concepts and tools, such as SIEM systems.
-
-* Enhancing Security Capabilities: Given a scenario, modify enterprise capabilities to enhance security.
-
-* Identity and Access Management: Implement and maintain identity and access management (IAM), including authentication and authorization methods.
-
-* Automation and Orchestration: Explain the importance of automation and orchestration in secure operations.
-
-* Incident Response Activities: Explain appropriate incident response activities, including preparation, identification, containment, eradication, recovery, and lessons learned.
-
-* Data Sources for Investigations: Given a scenario, use data sources (e.g., logs, network traffic) to support an investigation.
-
-* Digital Forensics Basics: Explain the key aspects of digital forensics.
-
-### Security Program Management and Oversight (20% of the Exam):
-
-* Elements of Effective Security Governance: Summarize elements of effective security governance, including policies, standards, and frameworks.
-
-* Risk Management Process: Explain elements of the risk management process, including risk identification, assessment, analysis, and treatment.
-
-* Third-Party Risk Management: Explain the processes associated with third-party risk assessment and management.
-
-* Effective Security Compliance: Summarize elements of effective security compliance with relevant laws, regulations, and industry standards.
-
-* Security Awareness Practices: Given a scenario, implement security awareness practices to educate users about threats and security procedures.
-
-### Review the Official Exam Objectives: The official CompTIA Security+ exam objectives document is your most important guide.
-
-Study Relevant Materials: Use study guides, practice exams, and other resources that align with the SY0-701 objectives.
-
-Gain Hands-on Experience: If possible, get practical experience with the technologies and concepts covered in the exam.
-
-Practice Performance-Based Questions (PBQs): Familiarize yourself with PBQ formats as they simulate real-world scenarios.
-
-Manage Your Study Time: Allocate sufficient time to cover all exam domains, focusing more on the domains with higher weightage.
-
-By focusing on these topics and utilizing a comprehensive study approach, you can increase your chances of successfully passing the CompTIA Security+ exam. Remember that the exam aims to validate your practical skills and knowledge in a wide range of cybersecurity areas.
-
-1	2FA	Two-Factor Authentication
-2	AC	Access Control
-3	AI	Artificial Intelligence
-4	AES	Advanced Encryption Standard
-5	APT	Advanced Persistent Threat
-6	APWG	Anti-Phishing Working Group
-7	ASV	Approved Scanning Vendor for PCI
-8	ATT&CK	Adversarial Tactics, Techniques and Common Knowledge
-9	AUP	Acceptable Use Policy
-10	AV	Antivirus
-11	AVIEN	Antivirus Information Exchange Network
-12	BAS	Breach and Attack Simulation
-13	BBP	Bug Bounty Program
-14	BYOD	Bring Your Own Device
-15	CASB	Cloud Access Security Broker
-16	CAPTCHA	Completely Automated Public Turing Test to Tell Computers and Humans Apart
-17	CEH	Certified Ethical Hacker
-18	CERT	Computer Emergency Response Team
-19	CHAP	Challenge-Handshake Authentication Protocol
-20	CIRT	Computer Incident Response Team
-21	CIS	Center for Internet Security
-22	CISA	Certified Information Systems Auditor/Cybersecurity and Infrastructure Security Agency
-23	CISM	Certified Information Systems Security Manager
-24	CISO	Chief Information Security Officer
-25	CISSP	Certified Information Systems Security Professional
-26	COBIT	Control Objectives for Information and Related Technologies
-27	CSA	Cloud Security Alliance
-28	CSO	Chief Security Officer
-29	CSP	Content Security Policy
-30	CTI	Cyber Threat Intelligence
-31	CVE	Common Vulnerabilities and Exposures
-32	DAST	Dynamic Application Security Testing
-33	DC	Domain Controller
-34	DLP	Data Loss Prevention
-35	DoS	Denial of Service
-36	DDoS	Distributed Denial of Service
-37	DNS	Domain Name System
-38	DRP	Disaster Recovery Plan
-39	EDR	Endpoint Detection & Response
-40	ERM	Enterprise Risk Management
-41	FDE	Full Disk Encryption
-42	FWaaS	Firewall as a Service
-43	GDPR	General Data Privacy Regulation
-44	GRC	Governance, Risk, & Compliance
-45	HTTPS	Hypertext Transfer Protocol Secure
-46	IAM	Identity and Access Management
-47	IBE	Identity-Based Encryption
-48	IDS	Intrusion Detection System
-49	IDPS	Intrusion Detection and Prevention System
-50	IoT	Internet of Things
-51	IPS	Intrusion Prevention System
-52	IRP	Incident Response Plan
-53	ISO	International Organization for Standardization
-54	ISSE	Information Systems Security Engineer
-55	ISSO	Information Systems Security Officer
-56	ISSPM	Information Systems Security Project Manager
-57	ITAM	IT Asset Management
-58	ITSM	IT Service Management
-59	MDR	Managed Detection and Response
-60	MFA	Multi-Factor Authentication
-61	MSP	Managed Service Provider
-62	MSSP	Managed Security Service Provider
-63	NAC	Network Access Control
-64	NCSA	National Cyber Security Alliance
-65	NGFW	Next Generation Firewall
-66	NIST	National Institutes of Standards and Technology
-67	PAOBOAU	Process Acting On Behalf Of an Authorized User
-68	OPSEC	Operational Security
-69	OSINT	Open Source intelligence
-70	PAM	Privileged Access Management
-71	PCI-DSS	Payment Card Industry Data Security Standard
-72	RM	Risk Management
-73	RMF	Risk Management Framework
-74	RPO	Recovery Point Objective
-75	RTO	Recovery Time Objective
-76	SA	Situational Awareness
-77	SASE	Secure Access Service Edge
-78	SD-WAN	Software Defined Wide Area Network
-79	SECaaS	Security as a Service
-80	SIEM	Security Information and Event Management
-81	SIM	Security Information Management
-82	SOAR	Security Orchestration, Automation, and Response
-83	SOC	Security Operations Center
-84	SSL	Secure Sockets Layer
-85	SSO	Single Sign-On
-86	SWG	Secure Web Gateway
-87	TCP	Transport Control Protocol
-88	TLS	Transport Layer Security
-89	TPRM	Third-Party Risk Management
-90	UDP	User Datagram Protocol
-91	UEBA	User and Entity Behavior Analytics
-92	VPN	Virtual Private Network
-93	WAF	Web Application Firewall
-94	WAP	Wireless Access Point
-95	WAAPaaS	Web Application and API Protection as a Service
-96	WPA	WiFi Protected Access
-97	WPS	WiFi Protected Setup
-98	WTLS	Wireless Transport Layer Security
-99	XDR	Extended Detection and Response
-100	ZTNA	Zero Trust Network Access
+Execution
+A security awareness training program is only as effective as its execution. Proper execution includes sticking to a set schedule, creating an inclusive and open learning environment, and providing appropriate feedback, both positive and negative, to participants.
